@@ -1,7 +1,6 @@
 
 # import libraries required for dash app
 from dash import Dash, html, dcc
-from jupyter_dash import JupyterDash
 from dash.dependencies import Input, Output
 from dash.exceptions import PreventUpdate
 import dash_bootstrap_components as dbc
@@ -112,5 +111,3 @@ def update_figure(district, crop):
         
     return title, fig
     
-
-app.run_server()
