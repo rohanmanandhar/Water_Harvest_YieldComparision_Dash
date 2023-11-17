@@ -1,0 +1,7 @@
+dash==2.6.0
+pandas
+gunicorn
+dash-bootstrap-components
+dash-bootstrap-templates
+openpyxl
+simplejson
