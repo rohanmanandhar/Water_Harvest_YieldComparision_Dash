@@ -18,7 +18,7 @@ dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.mi
 app=Dash(__name__, external_stylesheets=[dbc.themes.SLATE, dbc_css])
 server = app.server
 
-load_figure_template("SLATE")
+load_figure_template("slate")
 
 app.layout = dbc.Container([
     dbc.Tabs(class_name="dbc", children=[
