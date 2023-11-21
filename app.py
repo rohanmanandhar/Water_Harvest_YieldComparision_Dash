@@ -10,192 +10,452 @@ import plotly.express as px
 import pandas as pd
 import numpy as np
 
-harvest=pd.read_excel("harvest.xlsx", sheet_name=2)
-
-baseline=pd.read_excel("harvest.xlsx", sheet_name=0)
-
-combined = harvest.merge(baseline, on="Land ID", suffixes=( "", "_B"))
+df=pd.read_csv("tracker.csv")
+df.columns = df.columns.str.strip()
 
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 
-app=Dash(__name__, external_stylesheets=[dbc.themes.CERULEAN, dbc_css])
+app=Dash(__name__, external_stylesheets=[dbc.themes.SLATE, dbc_css])
 server = app.server
 
-load_figure_template("CERULEAN")
+load_figure_template("SLATE")
 
+app.layout = dbc.Container([
+    dbc.Tabs(class_name="dbc", children=[
+            dbc.Tab(label="Location Wise", children=[
+                html.Br(),
+                dbc.Row([
+                    dbc.Col([
+                            dbc.Card([
+                            dcc.Markdown("**Select Implementation Status**"),
+                            dcc.Dropdown(
+                                id="Implementation_Status",
+                                options=[{"label": i, "value": i} for i in ["Completed", "Underway", "With Procurement", "In Development"] if i in df["Overall Status"].unique()],
+                                value = [],
+                                className="dbc"
+                            ),
+                            dcc.Markdown("**Select Sector**"),
+                            dcc.Dropdown(
+                                id="sector_picker",
+                                options=[{"label": i, "value": i} for i in df["Sector"].unique()],
+                                value=[],
+                                multi=True,
+                                className="dbc"
+                            )
+                        ]),
+                            html.Br(),
+                            html.Br(),
+                            html.Br(),
+                            html.Br(),
+                            html.Br(),
+                            html.Br(),
+                            dbc.Card([
+                                dcc.Markdown("**Summary of plotted data**"),
+                                dbc.Card(id="activitySummary"),
+                                dbc.Card(id="amountSummary"),
+                            ])
+                            
+                    ], width=4),
+                    dbc.Col([
+                        html.Br(),
+                        html.H4(id="map1-title", style={"text-align": "center"}),
+                        html.Br(),
+                        dcc.Graph(id="graph1", style={'height': '37.5vh'}),
+                        html.Br(),
+                        html.H4(id="map2-title", style={"text-align": "center"}),
+                        html.Br(),
+                        dcc.Graph(id="graph2", style={'height': '37.5vh'})
+                    ], width=8)
+                ])
+            ]), # End of Location Wise Tab - 1
 
-app.layout=dbc.Container([
-    dcc.Tabs(className="dbc", children=[
-        dbc.Tab(label="Satisfaction & Impact Perception", children=[
-            dbc.Row([
-                dbc.Col([
-                    dbc.Card([
-                        dcc.Markdown("**Select a District:**"),
-                        dcc.Checklist(
-                            id='checklist_district_satisfaction',
-                            options=[{'label': i, 'value': i} for i in sorted(harvest.District.unique())],
-                            value=[],
-                            className="dbc"
-                        ),
-
-                        dcc.Markdown("**Select Age Range:**"),
-                        dcc.RangeSlider(
-                            id='slider_satisfaction',
-                            min = harvest.Age.min(),
-                            max = harvest.Age.max(),
-                            value = [],
-                            step=5,
-                            # marks={harvest.Age.min(): str(harvest.Age.min()),
-                            #        20: "20",
-                            #        25: "25",
-                            #         30: "30",
-                            #         35: "35",
-                            #         40: "40",
-                            #         45: "45",
-                            #         50: "50",
-                            #        harvest.Age.max(): str(harvest.Age.max())},
-                            className="dbc"
-                        ),
-
-                    ])
-                ], width=4),
-                dbc.Col([
-                    html.Br(),
-                    html.H4(id="map4_title", style={"textAlign": "center"}),
-                    html.Br(),
-                    dcc.Graph(id='graph4', style={'height': '37.5vh'}), # To control the height of the graph
-                    html.H4(id="map5_title", style={"textAlign": "center"}),
-                    html.Br(),
-                    dcc.Graph(id='graph5', style={'height': '37.5vh'}), # To control the height of the graph
-                ], width=8)
-            ]),
-            
-            
-        ])
+            dbc.Tab(label="Sector Wise", children=[
+                html.Br(),
+                dbc.Row([
+                    dbc.Col([
+                            dbc.Card([
+                            dcc.Markdown("**Select Implementation Status**"),
+                            dcc.Dropdown(
+                                id="Implementation_Status2",
+                                options=[{"label": i, "value": i} for i in ["Completed", "Underway", "With Procurement", "In Development"] if i in df["Overall Status"].unique()],
+                                value = [],
+                                className="dbc"
+                            ),
+                            dcc.Markdown("**Select Location**"),
+                            dcc.Dropdown(
+                                id="location_picker",
+                                options=[{"label": i, "value": i} for i in sorted(df["Location"].unique())],
+                                value=[],
+                                multi=True,
+                                className="dbc"
+                            )
+                        ]),
+                            html.Br(),
+                            html.Br(),
+                            html.Br(),
+                            html.Br(),
+                            html.Br(),
+                            html.Br(),
+                            dbc.Card([
+                                dcc.Markdown("**Summary of plotted data**"),
+                                dbc.Card(id="activitySummary2"),
+                                dbc.Card(id="amountSummary2"),
+                            ])
+                            
+                    ], width=4),
+                    dbc.Col([
+                        html.Br(),
+                        html.H4(id="map3-title", style={"text-align": "center"}),
+                        html.Br(),
+                        dcc.Graph(id="graph3", style={'height': '37.5vh'}),
+                        html.Br(),
+                        html.H4(id="map4-title", style={"text-align": "center"}),
+                        html.Br(),
+                        dcc.Graph(id="graph4", style={'height': '37.5vh'})
+                    ], width=8)
+                ])
+            ]), # End of Sector Wise Tab - 2
     ])
 ])
-        
 
 @app.callback(
-        Output('map4_title', 'children'),
-        Output('graph4', 'figure'),
-        Input('checklist_district_satisfaction', 'value'),
-        Input('slider_satisfaction', 'value')
+    Output("map1-title", "children"),
+    Output("graph1", "figure"),
+    Input("Implementation_Status", "value"),
+    Input("sector_picker", "value")
 )
 
-
-def update_figure4(district, age): 
-
-    # Replace 'F' and 'M' with 'Female' and 'Male'
-    harvest['Gender'] = harvest['Gender'].replace({'F': 'Female', 'M': 'Male'})
+def update_map1(status, sector):
     
-    if not district and not age:
-        title = "Overall Community Satisfaction Level by Gender"
-        df = harvest
+    
+    if not status and not sector:
+        title = "Number of Activities"
+        sfl = df
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location")
+    
+    elif status and not sector:
+        title = f"Number of '{status}' Activities"
+        sfl = df.query("`Overall Status` in @status")
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location")
 
-    elif district and not age:
-        title = f"Community Satisfaction Level in {district}"
-        df = harvest.query('District in @district')
-    
-    elif not district and age:
-        title = f"Community Satisfaction Level of Respondents between age {age[0]} and {age[1]}"
-        df = harvest[harvest['Age'].between(age[0], age[1])]
-    
+    elif not status and sector:
+        title = f"Number of Activities"
+        sfl = df.query("`Sector` in @sector")
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location")
+
     else:
-        title = f"Community Satisfaction Level of Respondents in {district} between age {age[0]} and {age[1]}"
-        df = harvest.query('District in @district').query('Age >= @age[0] and Age <= @age[1]')
-   
+        title = f"Number of '{status}' Activities"
+        sfl = df.query("`Overall Status` in @status").query("`Sector` in @sector")
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location")
 
-    fig=px.bar(
-        df.groupby(["District", "Gender"]).agg({"Satisfaction": "mean"}).reset_index(),
-        x="District",
-        y=["Satisfaction"],
-        color="Gender",
-        barmode="group",
-        labels={"value": "Satisfaction Level", "variable": "Gender"},
-        color_discrete_map={"Female": "hotpink", "Male": "cornflowerblue"},
-        # hover_data={"Satisfaction": ":.2f"}  # Add this line
-    ).update_yaxes(
-        tickformat='.2f',
-        range=[0, 5] # to make y ticks to 5
-    ).update_layout(
-    annotations=[
-        dict(
-            x=0,
-            y=1.15,
-            showarrow=False,
-            text="<i>Measured on a Scale of 1 to 5<i>",
-            xref="paper",
-            yref="paper",
-            font=dict(
-                color="brown"  # Change the color to your desired color
-            )
-        )
-    ]
-)
         
+    
+    fig = px.bar(
+    sfl_merged.sort_values("Number of Activities", ascending=False),
+    x="Location",
+    y="Number of Activities",
+    text="Number of Activities",
+    hover_data={"Amount": ":.2f"},
+    hover_name="Location", # Use "Location" as hover name
+    ).update_traces(
+    textposition='outside',
+    hovertemplate="<b style='font-size: 15px;'>%{hovertext}</b><br><br>Number of Activities: %{y}<br>Amount: US$ %{customdata[0]:.2f} M", # Customise hover template
+    marker_color='lightblue'  # Set bar color
+    ).update_layout(
+    showlegend=False,
+    ).update_yaxes(  # Add some padding to the y-axis
+    range=[0, 1.1 * sfl_merged["Number of Activities"].max()],
+    )
+
     return title, fig
 
 
 @app.callback(
-        Output('map5_title', 'children'),
-        Output('graph5', 'figure'),
-        Input('checklist_district_satisfaction', 'value'),
-        Input('slider_satisfaction', 'value')
+    Output("activitySummary", "children"),
+    Output("amountSummary", "children"),
+    Input("Implementation_Status", "value"),
+    Input("sector_picker", "value")
 )
 
-
-def update_figure5(district, age): 
-
-    # Replace 'F' and 'M' with 'Female' and 'Male'
-    harvest['Gender'] = harvest['Gender'].replace({'F': 'Female', 'M': 'Male'})
+def update_summary1(status, sector):
+    if not status and not sector:
+        sfl = df
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location")
     
-    if not district and not age:
-        title = "Overall Impact Perception Level by Gender"
-        df = harvest
+    elif status and not sector:
+        sfl = df.query("`Overall Status` in @status")
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location")
 
-    elif district and not age:
-        title = f"Impact Perception Level in {district}"
-        df = harvest.query('District in @district')
-    
-    elif not district and age:
-        title = f"Impact Perception Level of Respondents between age {age[0]} and {age[1]}"
-        df = harvest[harvest['Age'].between(age[0], age[1])]
-    
+    elif not status and sector:
+        sfl = df.query("`Sector` in @sector")
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location")
+
     else:
-        title = f"Impact Perception Level of Respondents in {district} between age {age[0]} and {age[1]}"
-        df = harvest.query('District in @district').query('Age >= @age[0] and Age <= @age[1]')
-   
+        sfl = df.query("`Overall Status` in @status").query("`Sector` in @sector")
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location")
 
-    fig=px.bar(
-        df.groupby(["District", "Gender"]).agg({"Perception": "mean"}).reset_index(),
-        x="District",
-        y=["Perception"],
-        color="Gender",
-        barmode="group",
-        labels={"value": "Impact Perception Level", "variable": "Gender"},
-        color_discrete_map={"Female": "hotpink", "Male": "cornflowerblue"},
-        # hover_data={"Satisfaction": ":.2f"}  # Add this line
-    ).update_yaxes(
-        tickformat='.2f',
-        range=[0, 5] # to make y ticks to 5
-    ).update_layout(
-    annotations=[
-        dict(
-            x=0,
-            y=1.15,
-            showarrow=False,
-            text="<i>Measured on a Scale of 1 to 5<i>",
-            xref="paper",
-            yref="paper",
-            font=dict(
-                color="brown"  # Change the color to your desired color
-            )
-        )
-    ]
+    activity = f"Number of Activities: {sfl_merged['Number of Activities'].sum()}" 
+    amount = f"Amount in US$ (million): {sfl_merged['Amount'].sum():.2f}"
+
+    return activity, amount
+
+@app.callback(
+    Output("map2-title", "children"),
+    Output("graph2", "figure"),
+    Input("Implementation_Status", "value"),
+    Input("sector_picker", "value")
 )
-        
-    return title, fig
-    
 
-# app.run_server()
+
+def update_map2(status, sector):
+    
+    
+    if not status and not sector:
+        title = "Fund Allocation"
+        sfl = df
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location").sort_values("Number of Activities", ascending=False)
+    
+    elif status and not sector:
+        title = f"Fund Allocation for '{status}' Activities"
+        sfl = df.query("`Overall Status` in @status")
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location").sort_values("Number of Activities", ascending=False)
+
+    elif not status and sector:
+        title = f"Fund Allocation"
+        sfl = df.query("`Sector` in @sector")
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location").sort_values("Number of Activities", ascending=False)
+
+    else:
+        title = f"Fund Allocation for '{status}' Activities"
+        sfl = df.query("`Overall Status` in @status").query("`Sector` in @sector")
+        sfl_sum = sfl.groupby("Location").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Location").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Location").sort_values("Number of Activities", ascending=False)
+
+        
+    
+    fig = px.bar(
+    sfl_merged,
+    x="Location",
+    y="Amount",
+    text=sfl_merged["Amount"].apply(lambda x: f'{x:.2f}'),  # Format text as two decimal points
+    hover_data={"Number of Activities"},
+    hover_name="Location", # Use "Location" as hover name
+    ).update_traces(
+    textposition='outside',
+    hovertemplate="<b style='font-size: 15px;'>%{hovertext}</b><br><br>Amount: %{y:.2f}<br>Number of Activities: %{customdata[0]}", # Customise hover template
+    marker_color='olive'  # Set bar color
+    ).update_layout(
+    showlegend=False,
+    ).update_yaxes(  # Add some padding to the y-axis
+    range=[0, 1.1 * sfl_merged["Amount"].max()],
+    title_text='Amount in Million US$'  # Set y-axis label
+    )
+
+    return title, fig # End of Location Wise Tab - 1
+
+
+@app.callback(
+    Output("map3-title", "children"),
+    Output("graph3", "figure"),
+    Input("Implementation_Status2", "value"),
+    Input("location_picker", "value")
+)
+
+def update_map3(status, location):
+    
+    
+    if not status and not location:
+        title = "Number of Activities"
+        sfl = df
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector")
+        
+    
+    elif status and not location:
+        title = f"Number of '{status}' Activities"
+        sfl = df.query("`Overall Status` in @status")
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector")
+
+    elif not status and location:
+        title = f"Number of Activities"
+        sfl = df.query("`Location` in @location")
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector")
+
+    else:
+        title = f"Number of '{status}' Activities"
+        sfl = df.query("`Overall Status` in @status").query("`Location` in @location")
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector")
+
+        
+    
+    fig = px.bar(
+    sfl_merged.sort_values("Number of Activities", ascending=False),
+    x="Sector",
+    y="Number of Activities",
+    text="Number of Activities",
+    hover_data={"Amount": ":.2f"},
+    hover_name="Sector", # Use "Location" as hover name
+    ).update_traces(
+    textposition='outside',
+    hovertemplate="<b style='font-size: 15px;'>%{hovertext}</b><br><br>Number of Activities: %{y}<br>Amount: US$ %{customdata[0]:.2f} M", # Customise hover template
+    marker_color='lightblue'  # Set bar color
+    ).update_layout(
+    showlegend=False,
+    ).update_yaxes(  # Add some padding to the y-axis
+    range=[0, 1.2 * sfl_merged["Number of Activities"].max()],
+    )
+
+    return title, fig
+
+
+@app.callback(
+    Output("activitySummary2", "children"),
+    Output("amountSummary2", "children"),
+    Input("Implementation_Status2", "value"),
+    Input("location_picker", "value")
+)
+
+def update_summary1(status, location):
+    if not status and not location:
+        sfl = df
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector")
+    
+    elif status and not location:
+        sfl = df.query("`Overall Status` in @status")
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector")
+
+    elif not status and location:
+        sfl = df.query("`Location` in @location")
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector")
+
+    else:
+        sfl = df.query("`Overall Status` in @status").query("`Location` in @location")
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector")
+
+    activity = f"Number of Activities: {sfl_merged['Number of Activities'].sum()}" 
+    amount = f"Amount in US$ (million): {sfl_merged['Amount'].sum():.2f}"
+
+    return activity, amount
+
+@app.callback(
+    Output("map4-title", "children"),
+    Output("graph4", "figure"),
+    Input("Implementation_Status2", "value"),
+    Input("location_picker", "value")
+)
+
+
+def update_map4(status, location):
+    
+    
+    if not status and not location:
+        title = "Fund Allocation"
+        sfl = df
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector").sort_values("Number of Activities", ascending=False)
+    
+    elif status and not location:
+        title = f"Fund Allocation for '{status}' Activities"
+        sfl = df.query("`Overall Status` in @status")
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector").sort_values("Number of Activities", ascending=False)
+
+    elif not status and location:
+        title = f"Fund Allocation"
+        sfl = df.query("`Location` in @location")
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector").sort_values("Number of Activities", ascending=False)
+
+    else:
+        title = f"Fund Allocation for '{status}' Activities"
+        sfl = df.query("`Overall Status` in @status").query("`Location` in @location")
+        sfl_sum = sfl.groupby("Sector").agg({"Amount": "sum"}).reset_index()
+        sfl_sum["Amount"] = sfl_sum["Amount"] / 1e6  # Convert "Amount" to millions
+        sfl_count = sfl.groupby("Sector").size().reset_index(name="Number of Activities")
+        sfl_merged = pd.merge(sfl_count, sfl_sum, on="Sector").sort_values("Number of Activities", ascending=False)
+
+        
+    
+    fig = px.bar(
+    sfl_merged,
+    x="Sector",
+    y="Amount",
+    text=sfl_merged["Amount"].apply(lambda x: f'{x:.2f}'),  # Format text as two decimal points
+    hover_data={"Number of Activities"},
+    hover_name="Sector", # Use "Location" as hover name
+    ).update_traces(
+    textposition='outside',
+    hovertemplate="<b style='font-size: 15px;'>%{hovertext}</b><br><br>Amount: %{y:.2f}<br>Number of Activities: %{customdata[0]}", # Customise hover template
+    marker_color='olive'  # Set bar color
+    ).update_layout(
+    showlegend=False,
+    ).update_yaxes(  # Add some padding to the y-axis
+    range=[0, 1.2 * sfl_merged["Amount"].max()],
+    title_text='Amount in Million US$'  # Set y-axis label
+    )
+
+    return title, fig # End of Sector Wise Tab - 1
