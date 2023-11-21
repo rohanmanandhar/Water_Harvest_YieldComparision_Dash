@@ -1,0 +1,506 @@
+Works / Goods,Region,Location,Sector,Project,Funding Stage,Amount,Expenditure,Initial Phase Status,Procurement Phase Status,Contract Signing, Implementation Phase Status,Site handover date,Start Date,Actual completion date,Overall Status ,Type,Project ID,Latitude,Longitude,Donor,Implementation_duration
+Goods ,West,Sirt,Solid Waste Management,Supply of Garbage Trucks,Phase 1,592330.7558,592588.3309,Completed,PO + Contract issuance done,10/1/2017,Substantial completion / handover done,,,7/24/2018,Completed,Garbage truck,98720,31.21031389,16.49231667,EU,296
+Goods ,West,Sirt,Solid Waste Management,Supply of Garbage Trucks,Phase 1,885386.3895,0,To be initiated,,,,,,,In Development,Truck,,,,,
+Goods ,West,Sirt,Solid Waste Management,Supply of Garbage Trucks,Phase 1,505202.5674,0,To be initiated,,,,,,,In Development,Garbage truck,,,,,
+Goods ,West,Sirt,Solid Waste Management,Supply of Garbage Trucks,Phase 1,794730.1535,0,To be initiated,,,,,,,In Development,Truck,,,,,
+Goods ,West,Sirt,Solid Waste Management,Supply of Garbage Bins,Phase 1,48357.86747,48357.86747,Completed,PO + Contract issuance done,10/1/2017,Substantial completion / handover done,,,7/26/2018,Completed,Garbage Bin,98720,31.20963056,16.49245833,EU,298
+Goods ,West,Sirt,Solid Waste Management,Supply of Garbage Bins,Phase 1,26331.57025,0,To be initiated,,,,,,,In Development,Garbage Bin,,,,,
+Goods ,West,Sirt,WASH,Supply of Sewage Suction Trucks,Phase 1,222241.0919,0,To be initiated,,,,,,,In Development,Sewage suction truck,,,,,
+Works ,West,Sirt,Health ,Rehabilitation of Clinic,Phase 1,83941.10891,83941.10891,Completed,PO + Contract issuance done,3/29/2018,Substantial completion / handover done,4/9/2018 0:00,4/16/2018 0:00,8/28/2018,Completed,Clinic,98720,31.19804444,16.57596667,EU,152
+Goods ,West,Sirt,Health ,Supply of Freezers,Phase 1,48281.9072,48281.9072,Completed,PO + Contract issuance done,10/10/2020,Substantial completion / handover done,10/22/2020 0:00,10/28/2020 0:00,3/28/2021,Completed,Other health building,98720,31.18397222,16.58197222,France,169
+Goods ,West,Sirt,Health ,Supply of Ambulances,Phase 1,85445.31437,93101.98422,Completed,PO + Contract issuance done,2/1/2017,Substantial completion / handover done,,,12/31/2017,Completed,Ambulance,98720,31.18756111,16.58971389,South Korea,333
+Works ,West,Sirt,Health ,Rehabilitation of Clinic,Phase 1,49276.89368,0,BOQ development stage,,,,,,,In Development,Clinic,,,,,
+Works ,West,Sirt,Health ,Rehabilitation of Clinic,Phase 1,39032.82041,39032.82041,Completed,PO + Contract issuance done,8/5/2019,Substantial completion / handover done,9/3/2019 0:00,,3/22/2020,Completed,Clinic,112158,31.20830278,16.57111944,South Korea,230
+Works ,West,Sirt,Health ,Rehabilitation of Clinic,Phase 1,18984.60695,18984.60695,Completed,PO + Contract issuance done,12/7/2018,Substantial completion / handover done,1/3/2019 0:00,1/10/2019 0:00,3/31/2019,Completed,Clinic,98720,31.17541389,16.59437222,Japan,114
+Works ,West,Sirt,Health ,Rehabilitation of Clinic,Phase 1,23862.10055,23862.10055,Completed,PO + Contract issuance done,7/5/2019,Substantial completion / handover done,,,10/28/2019,Completed,Clinic,112158,31.20894167,16.55962778,Germany,115
+Works ,West,Sirt,Health ,Rehabilitation of Clinic,Phase 1,18463.30323,18562.78854,Completed,PO + Contract issuance done,11/13/2018,Substantial completion / handover done,11/30/2018 0:00,12/7/2018 0:00,3/15/2019,Completed,Clinic,112158,31.18865,16.41727778,EU,122
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,89867.9497,88825.0129,Completed,PO + Contract issuance done,11/11/2017,Substantial completion / handover done,11/20/2017 0:00,11/27/2017 0:00,2/5/2018,Completed,School,98720,31.20788611,16.57279167,Germany,86
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,39672.13471,39672.13471,Completed,PO + Contract issuance done,7/25/2018,Substantial completion / handover done,9/6/2017 0:00,9/13/2017 0:00,12/25/2018,Completed,School,98720,31.20520556,16.59715833,Germany,153
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,43275.21076,43087.79941,Completed,PO + Contract issuance done,11/16/2017,Substantial completion / handover done,12/2/2017 0:00,12/9/2017 0:00,7/28/2018,Completed,School,98720,31.20671667,16.58765556,Germany,254
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,81050.64161,81050.64161,Completed,PO + Contract issuance done,11/9/2017,Substantial completion / handover done,11/19/2017 0:00,11/26/2017 0:00,3/25/2018,Completed,School,98720,31.21010556,16.57031944,Germany,136
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,58317.76477,58317.76477,Completed,PO + Contract issuance done,12/17/2017,Substantial completion / handover done,12/25/2017 0:00,1/1/2018 0:00,4/24/2018,Completed,School,98720,31.20994722,16.58622222,EU,128
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,198566.2847,198496.8897,Completed,PO + Contract issuance done,11/8/2018,Substantial completion / handover done,11/30/2018 0:00,12/4/2018 0:00,4/4/2019,Completed,School,98720,31.17784444,16.59665278,Canada,147
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,30779.84541,30692.63585,Completed,PO + Contract issuance done,11/13/2018,Substantial completion / handover done,11/30/2018 0:00,12/7/2018 0:00,3/15/2019,Completed,School,112158,31.18740278,16.417525,EU,122
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,177684.7519,177684.7519,Completed,PO + Contract issuance done,5/27/2019,Substantial completion / handover done,6/11/2019 0:00,,10/20/2019,Completed,School,112158,31.20734167,16.57907222,EU,146
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,190090.894,190090.894,Completed,PO + Contract issuance done,11/13/2018,Substantial completion / handover done,11/28/2018 0:00,12/6/2018 0:00,4/14/2019,Completed,School,98720,31.20665556,16.56042778,Norway,152
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,36440.28095,36440.28095,Completed,PO + Contract issuance done,12/11/2018,Substantial completion / handover done,12/31/2018 0:00,1/7/2019 0:00,3/27/2019,Completed,Other Educational building,98720,31.19923056,16.59396389,UK,106
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,190689.5227,190689.5227,Completed,PO + Contract issuance done,5/27/2019,Substantial completion / handover done,9/2/2019 0:00,9/9/2019 0:00,12/25/2019,Completed,Other Educational building,112158,31.20928056,16.58690833,EU,212
+Works ,West,Sirt,Education ,Rehabilitation of School,Phase 1,224318.402,224318.402,Completed,PO + Contract issuance done,5/21/2019,Substantial completion / handover done,,6/3/2019 0:00,12/8/2019,Completed,Other Educational building,112158,31.20883611,16.57091111,Netherlands,201
+Goods ,West,Sirt,Health ,Supply of Ambulances,Phase 1,65089.03482,82620.93854,Completed,PO + Contract issuance done,2/1/2017,Substantial completion / handover done,,,12/31/2017,Completed,Ambulance,98720,31.18376111,16.58434722,,333
+Goods ,West,Sirt,Health ,Supply of Medical Waste incinerator,Phase 1,44166.1126,46403.56618,Completed,PO + Contract issuance done,11/3/2017,Substantial completion / handover done,,,12/31/2017,Completed,Incinerator,98720,31.18376111,16.58434722,UK,58
+Works ,West,Bani Walid,Education ,Rehabilitation of School,Phase 1,22486.07662,100282.431,Completed,PO + Contract issuance done,5/20/2019,Substantial completion / handover done,,,10/17/2019,Completed,School,112158,31.38858611,13.75673611,EU,150
+Works ,West,Bani Walid,Education ,Rehabilitation of School,Phase 1,24729.74326,0,Completed,PO + Contract issuance done,5/20/2019,Substantial completion / handover done,,,10/17/2019,Completed,School,112158,31.75194444,14.01852778,EU,150
+Works ,West,Bani Walid,Education ,Rehabilitation of School,Phase 1,32171.56958,0,Completed,PO + Contract issuance done,5/20/2019,Substantial completion / handover done,,,10/17/2019,Completed,School,112158,31.75006111,14.01518333,EU,150
+Works ,West,Bani Walid,Education ,Rehabilitation of School,Phase 1,33698.01547,30328.21392,Completed,PO + Contract issuance done,5/4/2019,Substantial completion / handover done,7/21/2019 0:00,,11/26/2019,Completed,School,112158,31.74561944,14.00970278,EU,206
+Works ,West,Bani Walid,Education ,Rehabilitation of School,Phase 1,26253.03442,23627.73098,Completed,PO + Contract issuance done,5/4/2019,Substantial completion / handover done,7/21/2019 0:00,,11/26/2019,Completed,School,112158,31.830625,14.08754167,EU,206
+Works ,West,Bani Walid,Education ,Rehabilitation of School,Phase 1,36574.42255,32916.9803,Completed,PO + Contract issuance done,5/4/2019,Substantial completion / handover done,7/21/2019 0:00,,11/26/2019,Completed,School,112158,31.73271667,14.48505833,EU,206
+Works ,West,Bani Walid,Health ,Rehabilitation of Clinic,Phase 1,54801.14248,54801.14248,Completed,PO + Contract issuance done,10/12/2018,Substantial completion / handover done,10/16/2018 0:00,10/23/2018 0:00,1/2/2019,Completed,Other health building,98720,31.75860278,14.02846111,USA,82
+Works ,West,Bani Walid,Education ,Rehabilitation of School,Phase 1,46925.90172,46925.90172,Completed,PO + Contract issuance done,11/16/2018,Substantial completion / handover done,12/5/2018 0:00,12/12/2018 0:00,2/5/2019,Completed,School,112158,31.77497222,13.99588889,USA,81
+Goods ,West,Bani Walid,Health ,Supply of Ambulances,Phase 1,72330.50885,80254.1786,Completed,PO + Contract issuance done,2/1/2018,Substantial completion / handover done,,,12/31/2018,Completed,Ambulance,98720,31.75635,14.02678,South Korea,333
+Goods ,West,Bani Walid,Health ,Supply of Generators,Phase 1,127786.2971,138652.4547,Completed,PO + Contract issuance done,4/1/2017,Substantial completion / handover done,,,2/15/2018,Completed,Generator,98720,31.75697222,14.02686111,Germany,320
+Goods ,West,Bani Walid,Health ,Supply of Generators,Phase 1,36197.9821,36197.9821,Completed,PO + Contract issuance done,7/1/2017,Substantial completion / handover done,,,5/24/2018,Completed,Generator,98720,31.756525,14.02769167,Germany,327
+Works ,West,Bani Walid,Health ,Rehabilitation of Hospital,Phase 1,372308.841,332563.0477,Completed,PO + Contract issuance done,11/8/2019,Substantial completion / handover done,8/9/2020 0:00,8/19/2020 0:00,3/15/2021,Completed,Hospital,112158,31.75683333,14.02763889,Germany,493
+Goods ,West,Bani Walid,Health ,Supply of Ambulances,Phase 1,25069.38919,32222.65487,Completed,PO + Contract issuance done,2/1/2018,Substantial completion / handover done,,,12/31/2018,Completed,Ambulance,98720,31.75635,14.02678,South Korea,333
+Goods ,West,Bani Walid,Health ,Supply of Generators,Phase 1,103892.803,52865.60496,Completed,PO + Contract issuance done,2/17/2019,Substantial completion / handover done,,,10/3/2019,Completed,Water Pump,98720,31.756525,14.02769167,USA,228
+Goods ,West,Bani Walid,Solid Waste Management,Supply of Garbage Trucks,Phase 1,163907.0147,209406.7385,Completed,PO + Contract issuance done,4/1/2017,Substantial completion / handover done,,,2/8/2018,Completed,Garbage truck,98720,31.73072,14.04922,Germany,313
+Goods ,West,Bani Walid,Public Infrastructure and Services,Supply of Generators,Phase 1,34328.485,34328.485,Completed,PO + Contract issuance done,7/1/2017,Substantial completion / handover done,,,5/24/2018,Completed,Generator,98720,31.75615278,14.02215278,Germany,327
+Goods ,West,Bani Walid,WASH,Supply of Pesticide Sprayer Trucks,Phase 1,40108.22758,36679.85181,Completed,PO + Contract issuance done,3/28/2018,Substantial completion / handover done,,,12/31/2018,Completed,Pesticide Sprayer,98720,31.75129,13.9893,EU,278
+Goods ,West,Bani Walid,WASH,Supply of Water Pumps,Phase 1,188132.6661,171833.696,Completed,PO + Contract issuance done,6/24/2018,Substantial completion / handover done,,,4/1/2019,Completed,Water Pump,98720,31.75222778,14.01996111,Italy,281
+Goods ,West,Bani Walid,WASH,Supply of Water Pumps,Phase 1,4014.602071,3864.61021,Completed,PO + Contract issuance done,6/24/2018,Substantial completion / handover done,,,5/12/2019,Completed,Water Pump,98720,31.75222778,14.01996111,Italy,322
+Goods ,West,Bani Walid,WASH,Supply of Generators,Phase 1,116435.076,0,Completed,PO + Contract issuance done,10/1/2018,Substantial completion / handover done,,,6/27/2019,Completed,Generator,,31.75222778,14.01996111,,269
+Goods ,West,Bani Walid,WASH,Supply of Generators,Phase 1,20771.56926,20771.56926,Completed,PO + Contract issuance done,6/24/2018,Substantial completion / handover done,,,2/10/2019,Completed,Generator,98720,31.75222778,14.01996111,EU,231
+Goods ,West,Bani Walid,WASH,Supply of Sewage Suction Trucks,Phase 1,128746.7868,118954.028,Completed,PO + Contract issuance done,6/5/2018,Substantial completion / handover done,,,4/3/2019,Completed,Sewage suction truck,98720,31.75222778,14.01996111,EU,302
+Goods ,West,Bani Walid,Education ,Provision of Educational Equipment,Phase 1,36395.88894,39490.77058,Completed,PO + Contract issuance done,2/1/2018,Substantial completion / handover done,,,12/31/2018,Completed,Generator,98720,31.75449722,14.02550278,Germany,333
+Works ,East,Benghazi ,Health ,Rehabilitation of Hospital,Phase 1,63702.14374,63702.14374,Completed,PO + Contract issuance done,5/12/2017,Substantial completion / handover done,5/23/2017 0:00,,9/27/2017,Completed,Hospital,98720,32.202982,20.180902,EU,138
+Works ,East,Benghazi ,Health ,Rehabilitation of Clinic,Phase 1,21610.98571,21610.98571,Completed,PO + Contract issuance done,1/29/2017,Substantial completion / handover done,2/13/2017 0:00,,6/20/2017,Completed,Clinic,98720,32.050627,20.110338,Italy,142
+Works ,East,Benghazi ,Health ,Rehabilitation of Clinic,Phase 1,24889.01864,24889.01864,Completed,PO + Contract issuance done,5/31/2017,Substantial completion / handover done,,,9/13/2017,Completed,Clinic,98720,32.029109,20.069583,France,105
+Works ,East,Benghazi ,Health ,Rehabilitation of Clinic,Phase 1,64109.37096,64109.37096,Completed,PO + Contract issuance done,11/22/2016,Substantial completion / handover done,12/1/2016 0:00,,2/20/2017,Completed,Clinic,98720,32.05346,20.109337,Italy,90
+Works ,East,Benghazi ,Public Infrastructure and Services,Rehabilitation of Public Building,Phase 1,59611.64991,59346.88554,Completed,PO + Contract issuance done,11/22/2016,Substantial completion / handover done,11/30/2016 0:00,,2/26/2017,Completed,Public Infrastructure,98720,32.098012,20.183908,Italy,96
+Works ,East,Benghazi ,Public Infrastructure and Services,Rehabilitation of Public Building,Phase 1,21498.21298,21498.21298,Completed,PO + Contract issuance done,12/31/2016,Substantial completion / handover done,1/8/2017 0:00,,5/1/2017,Completed,Public Infrastructure,98720,32.113956,20.075614,Italy,121
+Works ,East,Benghazi ,Public Infrastructure and Services,Rehabilitation of Public Infrastructure,Phase 1,81854.01884,81854.01884,Completed,PO + Contract issuance done,8/1/2017,Substantial completion / handover done,,,11/3/2017,Completed,Public Infrastructure,98720,32.106457,20.07919,Germany,94
+Works ,East,Benghazi ,Education ,Rehabilitation of School,Phase 1,82857.14781,82857.14781,Completed,PO + Contract issuance done,6/14/2017,Substantial completion / handover done,,,10/10/2017,Completed,School,98720,32.05432,20.036658,Norway,118
+Works ,East,Benghazi ,Energy ,Rehabilitation of Substation,Phase 1,57047.10255,57047.10255,Completed,PO + Contract issuance done,4/20/2017,Substantial completion / handover done,,,8/29/2017,Completed,Substation,98720,32.099005,20.13182,EU,131
+Works ,East,Benghazi ,Energy ,Rehabilitation of Substation,Phase 1,135536.4762,135536.4762,Completed,PO + Contract issuance done,5/20/2017,Substantial completion / handover done,,,8/30/2017,Completed,Substation,98720,32.103881,20.154771,Japan,102
+Goods ,East,Benghazi ,Solid Waste Management,Supply of Garbage Trucks,Phase 1,412574.3701,426068.0739,Completed,PO + Contract issuance done,2/1/2016,Substantial completion / handover done,,,12/10/2016,Completed,Garbage truck,98720,,,Germany,313
+Goods ,East,Benghazi ,Solid Waste Management,Supply of Garbage Bins,Phase 1,24457.44939,24457.44939,Completed,PO + Contract issuance done,10/1/2017,Substantial completion / handover done,,,7/26/2018,Completed,Garbage Bin,98720,,,Germany,298
+Goods ,East,Benghazi ,Health ,Supply of Ambulances,Phase 1,70167.38347,252871.5261,Completed,PO + Contract issuance done,2/1/2016,Substantial completion / handover done,,,12/5/2016,Completed,Ambulance,98720,32.07731111,20.09786944,Germany,308
+Goods ,East,Benghazi ,Health ,Supply of Ambulances,Phase 1,42893.42794,,Completed,PO + Contract issuance done,2/1/2016,Substantial completion / handover done,,,12/5/2016,Completed,Ambulance,98720,32.05098333,20.11073333,Germany,308
+Goods ,East,Benghazi ,Health ,Supply of Ambulances,Phase 1,67281.75888,,Completed,PO + Contract issuance done,2/1/2016,Substantial completion / handover done,,,12/5/2016,Completed,Ambulance,98720,32.11008611,20.08968056,Germany,308
+Goods ,East,Benghazi ,Health ,Supply of Ambulances,Phase 1,81043.46581,,Completed,PO + Contract issuance done,2/1/2016,Substantial completion / handover done,,,12/5/2016,Completed,Ambulance,98720,32.11398333,20.07553056,Germany,308
+Goods ,East,Benghazi ,Health ,Supply of Ambulances,Phase 1,36325.80945,,Completed,PO + Contract issuance done,2/1/2016,Substantial completion / handover done,,,12/5/2016,Completed,Ambulance,98720,32.01991111,20.12389722,Germany,308
+Goods ,East,Benghazi ,Health ,Supply of Generators,Phase 1,35565.92722,35565.92722,Completed,PO + Contract issuance done,4/1/2016,Substantial completion / handover done,,,2/4/2017,Completed,Generator,98720,32.20312222,20.18058333,Germany,309
+Goods ,East,Benghazi ,Public Infrastructure and Services,Supply of Generators,Phase 1,31202.06123,31202.06123,Completed,PO + Contract issuance done,4/1/2016,Substantial completion / handover done,,,2/1/2017,Completed,Generator,98720,32.113956,20.075614,Germany,306
+Goods ,East,Benghazi ,Health ,Suppy of Medical Equipment,Phase 1,137656.0454,153218.8406,Completed,PO + Contract issuance done,6/30/2017,Substantial completion / handover done,,,12/31/2018,Completed,Medical Equipment,98720,32.05347222,20.10931389,Japan,549
+Goods ,East,Benghazi ,Health ,Supply of Solar Panels,Phase 1,132320.1948,132320.1948,Completed,PO + Contract issuance done,8/24/2016,Substantial completion / handover done,,,12/31/2016,Completed,Solar Panels,98720,32.07731111,20.09786944,Germany,129
+Goods ,East,Benghazi ,Health ,Supply of Solar Panels,Phase 1,104547.6456,104547.6456,Completed,PO + Contract issuance done,8/24/2016,Substantial completion / handover done,,,12/31/2016,Completed,Solar Panels,98720,32.07695,20.09265556,Germany,129
+Goods ,East,Benghazi ,Health ,Supply of Solar Panels,Phase 1,103709.529,103709.529,Completed,PO + Contract issuance done,8/24/2016,Substantial completion / handover done,,,12/31/2016,Completed,Solar Panels,98720,32.11008611,20.08968056,Germany,129
+Goods ,East,Benghazi ,Health ,Supply of Solar Panels,Phase 1,101892.1184,101892.1184,Completed,PO + Contract issuance done,8/24/2016,Substantial completion / handover done,,,12/31/2016,Completed,Solar Panels,98720,32.20312222,20.18058333,Germany,129
+Goods ,East,Benghazi ,Public Infrastructure and Services,Supply of Vehicles,Phase 1,72661.66325,72661.66325,Completed,PO + Contract issuance done,6/6/2017,Substantial completion / handover done,,,12/31/2017,Completed,Vehicle,98720,32.11398333,20.07553056,Japan,208
+Goods ,East,Benghazi ,Public Infrastructure and Services,Supply of Vehicles,Phase 1,27753.21659,27753.21659,Completed,PO + Contract issuance done,9/8/2017,Substantial completion / handover done,,,12/31/2017,Completed,Boat,98720,32.11398333,20.07553056,Germany,114
+Works ,East,Benghazi ,Energy ,Supply and Installation of Solar Street Lights,Phase 1,644011.005,596021.0193,Completed,PO + Contract issuance done,4/20/2017,Substantial completion / handover done,,,9/1/2019,Completed,Solar Street Light,98720,32.006777,20.129686,EU,864
+Goods ,East,Benghazi ,WASH,Supply of Sewage Pumps,Phase 1,209917.9152,206666.4776,Completed,PO + Contract issuance done,8/10/2017,Substantial completion / handover done,,,12/31/2018,Completed,Sewage Pump,98720,,,USA,508
+Goods ,East,Benghazi ,WASH,Supply of Water Pumps,Phase 1,175389.6954,175389.6954,Completed,PO + Contract issuance done,8/14/2017,Substantial completion / handover done,,,12/31/2018,Completed,Water Pump,112158,32.07490278,20.23069722,USA,504
+Goods ,East,Benghazi ,Health ,Supply of Generators,Phase 1,46846.73774,46846.73774,Completed,PO + Contract issuance done,4/1/2016,Substantial completion / handover done,,,2/1/2017,Completed,Generator,98720,32.0502,20.11005833,Germany,306
+Goods ,East,Benghazi ,Health ,Supply of Generators,Phase 1,38443.64818,38443.64818,Completed,PO + Contract issuance done,4/1/2016,Substantial completion / handover done,,,2/1/2017,Completed,Generator,98720,32.01991111,20.12389722,Germany,306
+Goods ,West,Kikla ,Health ,Supply of Ambulances,Phase 1,91831.44414,73772.87623,Completed,PO + Contract issuance done,4/1/2016,Substantial completion / handover done,,,2/1/2017,Completed,Ambulance,98720,32.065398,12.695327,Germany,306
+Goods ,West,Kikla ,Health ,Suppy of Medical Equipment,Phase 1,229796.3655,229137.3214,Completed,PO + Contract issuance done,11/21/2018,Substantial completion / handover done,,,12/16/2019,Completed,Medical Equipment,98720,32.064526,12.690493,Norway,390
+Works ,West,Kikla ,Health ,Rehabilitation of Hospital,Phase 1,242458.9372,242458.9372,Completed,PO + Contract issuance done,7/3/2017,Substantial completion / handover done,6/14/2017 0:00,6/21/2017 0:00,2/17/2018,Completed,Hospital,98720,32.064526,12.690493,Germany,229
+Works ,West,Kikla ,Health ,Rehabilitation of Hospital,Phase 1,11350.91578,11350.91578,Completed,PO + Contract issuance done,3/7/2018,Substantial completion / handover done,3/30/2018 0:00,4/6/2018 0:00,5/8/2018,Completed,Other health building,98720,32.065092,12.690769,UK,62
+Works ,West,Kikla ,Health ,Rehabilitation of Hospital,Phase 1,67748.88841,67748.88841,Completed,PO + Contract issuance done,5/22/2017,Substantial completion / handover done,6/4/2017 0:00,6/11/2017 0:00,10/11/2017,Completed,Hospital,98720,32.065043,12.689734,Japan,142
+Goods ,West,Kikla ,Public Infrastructure and Services,Supply of Fire Fighting Trucks,Phase 1,122240.9885,127201.3473,Completed,PO + Contract issuance done,2/1/2016,Substantial completion / handover done,,,11/17/2016,Completed,Firetruck,98720,32.065398,12.695327,Germany,290
+Goods ,West,Kikla ,Public Infrastructure and Services,Supply of IT Equipment,Phase 1,10397.6038,10288.15533,Completed,PO + Contract issuance done,2/3/2017,Substantial completion / handover done,,,2/23/2017,Completed,IT equipment,98720,32.065398,12.695327,Italy,20
+Goods ,West,Kikla ,Public Infrastructure and Services,Supply of Solar Power System,Phase 1,9555.497478,9555.497478,Completed,PO + Contract issuance done,12/29/2016,Substantial completion / handover done,,,12/31/2017,Completed,Solar backup,98720,32.065398,12.695327,Italy,367
+Goods ,West,Kikla ,Public Infrastructure and Services,Supply of Sport Equipment,Phase 1,46842.07028,46842.07028,Completed,PO + Contract issuance done,5/1/2017,Substantial completion / handover done,,,2/9/2018,Completed,Sports equipment,98720,32.065398,12.695327,Germany,284
+Works ,West,Kikla ,Public Infrastructure and Services,Rehabilitation of Public Building,Phase 1,44231.46871,44231.46871,Completed,PO + Contract issuance done,3/2/2017,Substantial completion / handover done,3/13/2017 0:00,3/20/2017 0:00,5/14/2017,Completed,Public Infrastructure,98720,32.02775,12.707803,EU,73
+Goods ,West,Kikla ,Energy ,Provision of Power Cables,Phase 1,56751.49174,56751.49174,Completed,PO + Contract issuance done,5/1/2016,Substantial completion / handover done,,,2/1/2017,Completed,Generator,98720,32.065398,12.695327,Germany,276
+Goods ,West,Kikla ,Education ,Provision of Educational Equipment,Phase 1,50964.93571,50964.93571,Completed,PO + Contract issuance done,10/18/2017,Substantial completion / handover done,,,12/31/2017,Completed,Educational equipment,98720,32.065398,12.695327,Germany,74
+Goods ,West,Kikla ,Education ,Provision of Educational Equipment,Phase 1,,,Completed,PO + Contract issuance done,10/18/2017,Substantial completion / handover done,,,12/31/2017,Completed,Educational equipment,98720,32.065398,12.695327,Germany,74
+Goods ,West,Kikla ,Education ,Provision of Educational Equipment,Phase 1,19649.28881,19649.28881,Completed,PO + Contract issuance done,2/2/2017,Substantial completion / handover done,,,12/31/2017,Completed,Educational equipment,98720,32.065398,12.695327,Italy,332
+Goods ,West,Kikla ,Education ,Provision of Educational Equipment,Phase 1,59775.65874,59775.65874,Completed,PO + Contract issuance done,5/1/2016,Substantial completion / handover done,,,2/1/2017,Completed,Educational equipment,98720,32.065398,12.695327,Germany,276
+Goods ,West,Kikla ,Education ,Provision of Educational Equipment,Phase 1,12380.97211,12380.97211,Completed,PO + Contract issuance done,10/2/2017,Substantial completion / handover done,,,7/31/2018,Completed,Educational equipment,98720,32.065398,12.695327,EU,302
+Works ,West,Kikla ,Education ,Rehabilitation of University,Phase 1,75085.06745,75085.06745,Completed,PO + Contract issuance done,3/2/2017,Substantial completion / handover done,3/13/2017 0:00,3/20/2017 0:00,5/24/2017,Completed,University,98720,32.057995,12.697726,EU,83
+Works ,West,Kikla ,Education ,Rehabilitation of University,Phase 1,10835.79796,10835.79796,Completed,PO + Contract issuance done,3/7/2018,Substantial completion / handover done,3/30/2018 0:00,4/6/2018 0:00,5/8/2018,Completed,Other Educational building,98720,32.059028,12.696137,UK,62
+Goods ,West,Kikla ,Education ,Provision of Educational Equipment,Phase 1,2571.579631,2571.579631,Completed,PO + Contract issuance done,2/13/2017,Substantial completion / handover done,,,2/23/2017,Completed,Educational equipment,98720,32.065398,12.695327,Germany,10
+Works ,South,Sebha ,Education ,Rehabilitation of University,Phase 1,77277.67241,77237.6271,Completed,PO + Contract issuance done,11/30/2017,Substantial completion / handover done,12/15/2017 0:00,12/24/2017 0:00,10/2/2018,Completed,Other Educational building,98720,27.04464722,14.4386,Denmark,306
+Works ,South,Sebha ,Education ,Rehabilitation of University,Phase 1,43322.52218,47654.77439,Completed,PO + Contract issuance done,7/11/2017,Substantial completion / handover done,7/22/2017 0:00,7/29/2017 0:00,7/1/2018,Completed,University,98720,27.03950278,14.4434,Germany,355
+Goods ,South,Sebha ,WASH,Supply of Sewage Pumps,Phase 1,315980.9816,266328.2642,Completed,PO + Contract issuance done,6/21/2018,Substantial completion / handover done,,,9/14/2019,Completed,Water Pump,98720,refer to list,refer to list,France,450
+Goods ,South,Sebha ,WASH,Supply of Generators,Phase 1,274942.4398,274942.4398,Completed,PO + Contract issuance done,6/19/2018,Substantial completion / handover done,,,9/2/2019,Completed,Generator,98720,refer to list,refer to list,EU,440
+Works ,South,Sebha ,WASH,Supply of Generators,Phase 1,169184.8762,169184.9411,Completed,PO + Contract issuance done,3/10/2019,Substantial completion / handover done,3/20/2019 0:00,3/30/2019 0:00,8/10/2019,Completed,Public Infrastructure,112158,refer to list,refer to list,EU,153
+Goods ,South,Sebha ,WASH,Supply of Sewage Pumps,Phase 1,109439.5069,109519.0356,Completed,PO + Contract issuance done,5/23/2018,Substantial completion / handover done,,,8/27/2019,Completed,Sewage Pump,98720,27.04043889,14.42946389,EU,461
+Goods ,South,Sebha ,WASH,Supply of Sewage Pumps,Phase 1,151431.2888,129235.7304,Completed,PO + Contract issuance done,9/24/2018,Substantial completion / handover done,,,8/28/2019,Completed,Sewage Pump,98720,27.04228611,14.43942222,USA,338
+Works ,South,Sebha ,Education ,Rehabilitation of School,Phase 1,224243.4156,0,Completed,Advertisement period ongoing,,,,,,With Procurement,School,112158,"27.0266333333333
+27.0360833333333
+27.0334138888889
+27.0401583333333
+27.0456
+27.0222","14.4330194444444
+14.411175
+14.4601861111111
+14.4233194444444
+14.4361944444444
+14.4569416666667",Norway,
+Goods ,South,Sebha ,Health ,Supply of Freezers,Phase 1,37105.76128,36847.36461,Completed,PO + Contract issuance done,2/22/2018,Substantial completion / handover done,,,12/31/2018,Completed,Freezers,98720,27.02622778,14.43825,EU,312
+Works ,South,Sebha ,Health ,Rehabilitation of Clinic,Phase 1,23418.24932,23362.27002,Completed,PO + Contract issuance done,12/3/2017,Substantial completion / handover done,12/15/2017 0:00,12/23/2017 0:00,2/1/2018,Completed,Hospital,98720,27.02494167,14.43975556,Germany,60
+Works ,South,Ubari,Education ,Rehabilitation of School,Phase 1,383091.5783,382243.8043,Completed,PO + Contract issuance done,4/20/2017,Substantial completion / handover done,5/3/2017 0:00,5/10/2017 0:00,11/7/2017,Completed,School,98720,26.59466667,12.78001389,EU,201
+Works ,South,Ubari,Education ,Rehabilitation of School,Phase 1,305252.9461,304339.0522,Completed,PO + Contract issuance done,4/21/2017,Substantial completion / handover done,7/16/2017 0:00,7/23/2017 0:00,12/31/2017,Completed,School,98720,26.59386111,12.77965833,Germany,254
+Works ,South,Ubari,Education ,Rehabilitation of School,Phase 1,111125.5113,111059.3598,Completed,PO + Contract issuance done,3/13/2017,Substantial completion / handover done,5/2/2017 0:00,5/9/2017 0:00,9/6/2017,Completed,School,98720,26.58963056,12.77111944,Germany,177
+Works ,South,Ubari,Education ,Rehabilitation of School,Phase 1,311395.5068,311365.8885,Completed,PO + Contract issuance done,7/7/2017,Substantial completion / handover done,7/27/2017 0:00,8/3/2017 0:00,12/1/2017,Completed,School,98720,26.5897,12.769525,Germany,147
+Works ,South,Ubari,Health ,Rehabilitation of Hospital,Phase 1,266921.715,266921.715,Completed,PO + Contract issuance done,3/1/2017,Substantial completion / handover done,3/12/2017 0:00,3/19/2017 0:00,7/17/2017,Completed,Hospital,98720,26.59281944,12.76294444,Japan,138
+Goods ,South,Ubari,Health ,Suppy of Medical Equipment,Phase 1,55914.05596,54898.3966,Completed,PO + Contract issuance done,11/7/2018,Substantial completion / handover done,,,8/22/2019,Completed,Medical Equipment,98720,26.59281944,12.76294444,Japan,288
+Goods ,South,Ubari,Health ,Supply of Ambulances,Phase 1,62002.57413,69106.73565,Completed,PO + Contract issuance done,2/1/2016,Substantial completion / handover done,,,12/31/2017,Completed,Ambulance,98720,26.59281944,12.76294444,South Korea,699
+Goods ,South,Ubari,Health ,Supply of Generators,Phase 1,78445.16299,78644.64545,Completed,PO + Contract issuance done,2/1/2016,Substantial completion / handover done,,,12/31/2017,Completed,Generator,98720,"26.5904472222222
+26.5858","12.8199638888889
+12.7998694444444",Germany,699
+Goods ,South,Ubari,Solid Waste Management,Supply of Garbage Trucks,Phase 1,89838.38835,89734.20661,Completed,PO + Contract issuance done,5/1/2017,Substantial completion / handover done,,,2/28/2019,Completed,Garbage truck,98720,26.58782222,12.77386667,Germany,668
+Works ,South,Ubari,Public Infrastructure and Services,Rehabilitation of Public Building,Phase 1,49698.32533,49698.32533,Completed,PO + Contract issuance done,3/8/2017,Substantial completion / handover done,3/13/2017 0:00,3/20/2017 0:00,7/18/2017,Completed,Public Infrastructure,98720,26.59099444,12.76648333,EU,132
+Goods ,South,Ubari,Public Infrastructure and Services,Supply of IT Equipment,Phase 1,4604.363349,4604.363349,Completed,PO + Contract issuance done,7/19/2018,Substantial completion / handover done,,,12/31/2018,Completed,IT equipment,98720,26.59099444,12.76648333,Japan,165
+Goods ,South,Ubari,Public Infrastructure and Services,Supply of Furniture,Phase 1,3547.502876,3547.502876,Completed,PO + Contract issuance done,7/19/2018,Substantial completion / handover done,,,12/31/2018,Completed,Other public equipment,98720,26.59099444,12.76648333,Japan,165
+Works ,South,Ubari,Health ,Rehabilitation of Hospital,Phase 1,12065.77395,12060.91117,Completed,PO + Contract issuance done,5/4/2018,Substantial completion / handover done,,,7/1/2018,Completed,Other health building,98720,26.59044722,12.81996389,UK,58
+Works ,South,Ubari,Health ,Rehabilitation of Clinic,Phase 1,24459.72064,24354.68042,Completed,PO + Contract issuance done,5/4/2018,Substantial completion / handover done,,,8/14/2018,Completed,Other health building,98720,26.5858,12.79986944,USA,102
+Works ,South,Ubari,Public Infrastructure and Services,Rehabilitation of Public Market ,Phase 1,314647.9422,314647.9422,Completed,PO + Contract issuance done,7/17/2017,Substantial completion / handover done,8/3/2017 0:00,8/10/2017 0:00,5/1/2018,Completed,Public Infrastructure,98720,26.58806111,12.77771389,Germany,288
+Goods ,South,Ubari,WASH,Supply of Pesticide Sprayer Trucks,Phase 1,30860.80056,28668.17723,Completed,PO + Contract issuance done,5/4/2017,Substantial completion / handover done,,,12/31/2017,Completed,Pesticide Sprayer,98720,26.58782222,12.77386667,EU,241
+Works ,West,Tripoli,Health ,Rehabilitation of Hospital,Phase 1,324059.8005,323832.4196,Completed,PO + Contract issuance done,3/6/2018,Substantial completion / handover done,3/18/2018 0:00,7/1/2019 0:00,2/20/2020,Completed,Hospital,98720,32.880434,13.190073,UK,716
+Works ,West,Tripoli,Health ,Rehabilitation of Hospital,Phase 1,100109.5081,100109.4542,Completed,PO + Contract issuance done,8/19/2019,Substantial completion / handover done,6/17/2020 0:00,,1/27/2021,Completed,Hospital,112158,32.558341,13.178202,Germany,527
+Works ,West,Tripoli,Health ,Rehabilitation of Hospital,Phase 1,78479.37903,78475.62074,Completed,PO + Contract issuance done,6/18/2019,Substantial completion / handover done,7/24/2019 0:00,,2/20/2020,Completed,Hospital,112158,32.884282,13.162879,EU,247
+Works ,West,Tripoli,Health ,Rehabilitation of Hospital,Phase 1,163688.9806,147226.7936,Completed,PO + Contract issuance done,9/9/2020,Substantial completion / handover done,10/1/2020 0:00,10/29/2020 0:00,6/9/2021,Completed,Hospital,112158,32.87713,13.396316,Germany,273
+Works ,West,Tripoli,Health ,Rehabilitation of Hospital,Phase 1,65609.03053,65597.30803,Completed,PO + Contract issuance done,7/28/2020,Substantial completion / handover done,8/16/2020 0:00,,9/16/2021,Completed,Hospital,112158,32.8544595,13.1747602,Libya,415
+Goods ,West,Tripoli,WASH,Supply of Sewage Suction Trucks,Phase 1,828929.3374,784363.7313,Completed,PO + Contract issuance done,10/14/2018,Substantial completion / handover done,,,7/12/2019,Completed,Sewage suction truck,98720,,,Japan,271
+Goods ,West,Tripoli,Solid Waste Management,Supply of Garbage Trucks,Phase 1,65984.2119,66041.68591,Completed,PO + Contract issuance done,12/29/2018,Substantial completion / handover done,,,9/25/2019,Completed,Garbage truck,98720,,,EU,270
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,19194.85234,19194.85234,Completed,PO + Contract issuance done,7/30/2018,Substantial completion / handover done,8/29/2018 0:00,9/5/2018 0:00,12/2/2018,Completed,School,98720,32.84529167,13.03770556,Norway,125
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,18259.24858,18259.24858,Completed,PO + Contract issuance done,7/30/2018,Substantial completion / handover done,8/29/2018 0:00,9/5/2018 0:00,12/2/2018,Completed,School,98720,32.77483333,13.004225,Norway,125
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,19605.38459,19605.38459,Completed,PO + Contract issuance done,7/30/2018,Substantial completion / handover done,8/29/2018 0:00,9/5/2018 0:00,12/2/2018,Completed,School,98720,32.83883889,13.06273889,Norway,125
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,19929.63408,19929.61836,Completed,PO + Contract issuance done,5/10/2018,Substantial completion / handover done,5/25/2018 0:00,6/1/2018 0:00,10/25/2018,Completed,School,98720,32.82642778,13.01684722,Japan,168
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,18698.71592,18698.70118,Completed,PO + Contract issuance done,5/10/2018,Substantial completion / handover done,5/25/2018 0:00,6/1/2018 0:00,10/25/2018,Completed,School,98720,32.79184444,12.99820833,Japan,168
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,20789.06935,20789.05296,Completed,PO + Contract issuance done,5/10/2018,Substantial completion / handover done,5/25/2018 0:00,6/1/2018 0:00,10/25/2018,Completed,School,98720,32.82678056,12.98455556,Japan,168
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17209.15606,14293.7335,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,32.81065278,13.00161667,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,19313.31358,16041.42332,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16276.34816,13518.95364,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,32.842375,13.04139167,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18454.51234,15328.11256,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,32.81060833,12.96320556,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15021.91609,12477.03632,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,32.83350556,13.07263333,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,13321.54489,12029.24093,Completed,PO + Contract issuance done,11/25/2018,Substantial completion / handover done,12/22/2018 0:00,12/29/2018 0:00,8/31/2020,Completed,School,98720,32.85479,13.16026,Norway,645
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,21726.74179,21930.09073,Completed,PO + Contract issuance done,11/25/2018,Substantial completion / handover done,12/22/2018 0:00,12/29/2018 0:00,8/31/2020,Completed,School,98720,32.84657,13.17888,Norway,645
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,18120.514,19150.16941,Completed,PO + Contract issuance done,11/25/2018,Substantial completion / handover done,12/22/2018 0:00,12/29/2018 0:00,8/31/2020,Completed,School,98720,32.85123,13.18383,Norway,645
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,20556.39963,22281.38814,Completed,PO + Contract issuance done,11/8/2018,Substantial completion / handover done,11/15/2018 0:00,11/22/2018 0:00,3/15/2019,Completed,School,98720,32.79428,13.16423,Japan,127
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,12997.80157,10439.27108,Completed,PO + Contract issuance done,11/8/2018,Substantial completion / handover done,11/15/2018 0:00,11/22/2018 0:00,3/15/2019,Completed,School,98720,32.85365,13.17802,Japan,127
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,12020.87067,13038.09728,Completed,PO + Contract issuance done,11/8/2018,Substantial completion / handover done,11/15/2018 0:00,11/22/2018 0:00,3/15/2019,Completed,School,98720,32.79372,13.14245,Japan,127
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,13913.88225,11556.71574,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17742.85092,14737.01451,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18438.4903,15314.80484,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15044.16561,12495.51652,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16385.59984,13609.69687,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,10393.93622,9670.124505,Completed,PO + Contract issuance done,11/13/2018,Substantial completion / handover done,12/8/2018 0:00,12/15/2018 0:00,6/19/2019,Completed,School,98720,32.70631,12.93257,Italy,218
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,11390.68679,11382.38921,Completed,PO + Contract issuance done,11/13/2018,Substantial completion / handover done,12/8/2018 0:00,12/15/2018 0:00,6/19/2019,Completed,School,98720,32.76312,13.092737,Italy,218
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,22372.56428,22266.63522,Completed,PO + Contract issuance done,11/13/2018,Substantial completion / handover done,12/8/2018 0:00,12/15/2018 0:00,6/19/2019,Completed,School,98720,32.64499,13.021126,Italy,218
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,23789.22992,23789.22992,Completed,PO + Contract issuance done,10/26/2018,Substantial completion / handover done,11/25/2018 0:00,12/2/2018 0:00,5/21/2019,Completed,School,98720,32.713218,13.067128,Japan,207
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,31429.84697,31429.86832,Completed,PO + Contract issuance done,10/26/2018,Substantial completion / handover done,11/25/2018 0:00,12/2/2018 0:00,5/21/2019,Completed,School,98720,32.688304,13.058447,Japan,207
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,11533.98067,11533.98067,Completed,PO + Contract issuance done,10/26/2018,Substantial completion / handover done,11/25/2018 0:00,12/2/2018 0:00,5/21/2019,Completed,School,98720,32.638169,13.065338,Japan,207
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16185.27531,13443.30954,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,13781.79704,11447.00724,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,14030.00427,11653.16541,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17552.48813,14578.9013,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,19267.16115,16003.08962,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,19369.15269,17494.36235,Completed,PO + Contract issuance done,11/10/2018,Substantial completion / handover done,12/10/2018 0:00,12/17/2018 0:00,9/4/2019,Completed,School,98720,32.574,13.279,Japan,298
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,20778.19293,16418.05878,Completed,PO + Contract issuance done,11/10/2018,Substantial completion / handover done,12/10/2018 0:00,12/17/2018 0:00,9/4/2019,Completed,School,98720,32.607,13.241,Japan,298
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,21503.20464,26582.72467,Completed,PO + Contract issuance done,11/10/2018,Substantial completion / handover done,12/10/2018 0:00,12/17/2018 0:00,9/4/2019,Completed,School,98720,32.591,13.223,Japan,298
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,14244.10668,15463.59767,Completed,PO + Contract issuance done,11/22/2018,Substantial completion / handover done,12/9/2018 0:00,12/16/2018 0:00,1/5/2020,Completed,School,112158,32.666,13.292,EU,409
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,16630.00932,15419.69748,Completed,PO + Contract issuance done,11/22/2018,Substantial completion / handover done,12/9/2018 0:00,12/16/2018 0:00,1/5/2020,Completed,School,112158,32.616,13.277,EU,409
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,12006.36413,11824.80129,Completed,PO + Contract issuance done,11/22/2018,Substantial completion / handover done,12/9/2018 0:00,12/16/2018 0:00,1/5/2020,Completed,School,112158,32.529,13.257,EU,409
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,14985.99669,12447.20207,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,13926.10548,11566.86823,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18086.00672,15022.0359,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17446.40602,14490.79068,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16642.25661,13822.87313,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,10951.45233,12378.81387,Completed,PO + Contract issuance done,6/19/2019,Substantial completion / handover done,7/17/2019 0:00,,11/19/2019,Completed,School,112158,32.742572,13.748748,EU,153
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,27737.22068,26943.1223,Completed,PO + Contract issuance done,6/19/2019,Substantial completion / handover done,7/17/2019 0:00,,11/19/2019,Completed,School,112158,32.383563,13.445763,EU,153
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,14832.28709,13882.07314,Completed,PO + Contract issuance done,6/19/2019,Substantial completion / handover done,7/17/2019 0:00,,11/19/2019,Completed,School,112158,32.392841,13.35284,EU,153
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,27273.09484,81473.80838,Completed,PO + Contract issuance done,6/19/2019,Substantial completion / handover done,7/17/2019 0:00,7/17/2019 0:00,11/16/2019,Completed,School,112158,32.733465,13.782862,EU,150
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,23031.01726,0,Completed,PO + Contract issuance done,6/19/2019,Substantial completion / handover done,7/17/2019 0:00,7/17/2019 0:00,11/16/2019,Completed,School,112158,32.445404,13.390471,EU,150
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,21870.70681,0,Completed,PO + Contract issuance done,6/19/2019,Substantial completion / handover done,7/17/2019 0:00,7/17/2019 0:00,7/27/2020,Completed,School,112158,32.711704,13.608773,EU,404
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,14269.05523,11851.71847,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16858.59612,14002.56231,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17698.28104,14699.99526,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,13361.48671,11097.90216,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16635.42465,13817.19857,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,31769.302,30368.45906,Completed,PO + Contract issuance done,10/8/2018,Substantial completion / handover done,11/27/2018 0:00,12/4/2018 0:00,2/21/2019,Completed,School,98720,32.89229,13.20121,USA,136
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,12824.76585,13003.93537,Completed,PO + Contract issuance done,10/8/2018,Substantial completion / handover done,11/27/2018 0:00,12/4/2018 0:00,2/21/2019,Completed,School,98720,32.88631,13.19555,USA,136
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,6853.653112,8088.290752,Completed,PO + Contract issuance done,10/8/2018,Substantial completion / handover done,11/27/2018 0:00,12/4/2018 0:00,2/21/2019,Completed,School,98720,32.88786,13.19587,USA,136
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,15428.83723,14839.68124,Completed,PO + Contract issuance done,11/18/2018,Substantial completion / handover done,12/14/2018 0:00,12/21/2018 0:00,4/15/2019,Completed,School,112158,32.8914,13.17554,Germany,148
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,19520.61149,19515.85386,Completed,PO + Contract issuance done,11/18/2018,Substantial completion / handover done,12/14/2018 0:00,12/21/2018 0:00,4/15/2019,Completed,School,98720,32.87909,13.19524,Italy,148
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,16909.30476,17226.54561,Completed,PO + Contract issuance done,11/18/2018,Substantial completion / handover done,12/14/2018 0:00,12/21/2018 0:00,4/15/2019,Completed,School,98720,32.88887,13.18588,Italy,148
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,13469.2018,11187.36912,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18436.19148,15312.89546,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17466.1045,14507.15202,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18750.71955,15574.13898,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,13651.18563,11338.52285,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,75494.04856,75303.81634,Completed,PO + Contract issuance done,10/17/2019,Substantial completion / handover done,6/17/2020 0:00,,10/26/2020,Completed,School,112158,32.57084444,13.16913056,EU,375
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,0,0,Completed,PO + Contract issuance done,10/17/2019,Substantial completion / handover done,6/17/2020 0:00,,10/26/2020,Completed,School,112158,32.33891667,13.16028611,EU,375
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,0,0,Completed,PO + Contract issuance done,10/17/2019,Substantial completion / handover done,6/17/2020 0:00,,10/26/2020,Completed,School,112158,32.53678611,13.17336667,EU,375
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,61943.31454,61893.82126,Completed,PO + Contract issuance done,11/3/2019,Substantial completion / handover done,6/17/2020 0:00,,10/26/2020,Completed,School,112158,32.341725,13.08384722,EU,358
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,0,0,Completed,PO + Contract issuance done,11/3/2019,Substantial completion / handover done,6/17/2020 0:00,,10/26/2020,Completed,School,112158,32.45201667,13.15839444,EU,358
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,0,0,Completed,PO + Contract issuance done,11/3/2019,Substantial completion / handover done,6/17/2020 0:00,,10/26/2020,Completed,School,112158,32.31704444,13.10604444,EU,358
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,14917.75554,12390.52173,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16156.62435,13419.51237,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17925.20963,14888.47963,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17686.99934,14690.62481,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,19300.70067,16030.94717,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,13178.97255,13176.55038,Completed,PO + Contract issuance done,11/7/2018,Substantial completion / handover done,12/7/2018 0:00,12/14/2018 0:00,3/18/2019,Completed,School,98720,32.84125,13.21524,Japan,131
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,14803.98666,14795.8888,Completed,PO + Contract issuance done,11/7/2018,Substantial completion / handover done,12/7/2018 0:00,12/14/2018 0:00,3/18/2019,Completed,School,98720,32.84961,13.20573,Japan,131
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,28254.2658,22679.75413,Completed,PO + Contract issuance done,11/7/2018,Substantial completion / handover done,12/7/2018 0:00,12/14/2018 0:00,3/18/2019,Completed,School,98720,32.83209,13.2366,Japan,131
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,15508.63188,15435.54523,Completed,PO + Contract issuance done,11/20/2018,Substantial completion / handover done,11/27/2018 0:00,12/4/2018 0:00,3/18/2019,Completed,School,112158,32.80187,13.28237,EU,118
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,25666.46181,25526.63335,Completed,PO + Contract issuance done,11/20/2018,Substantial completion / handover done,11/27/2018 0:00,12/4/2018 0:00,3/18/2019,Completed,School,112158,32.85905,13.20703,EU,118
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,17989.16872,17874.83386,Completed,PO + Contract issuance done,11/20/2018,Substantial completion / handover done,11/27/2018 0:00,12/4/2018 0:00,3/18/2019,Completed,School,112158,32.81853,13.23419,EU,118
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17656.19782,14665.04141,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16458.69701,13670.41057,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,14409.38763,11968.277,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15626.29749,12979.02879,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,14730.47206,12234.96616,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,16510.12211,16028.71773,Completed,PO + Contract issuance done,10/23/2018,Substantial completion / handover done,11/22/2018 0:00,11/29/2018 0:00,3/20/2019,Completed,School,112158,32.855873,13.095475,Germany,148
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,20019.72505,19752.81162,Completed,PO + Contract issuance done,10/23/2018,Substantial completion / handover done,11/22/2018 0:00,11/29/2018 0:00,3/12/2019,Completed,School,112158,32.865173,13.125793,Germany,140
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,11625.41865,11131.59743,Completed,PO + Contract issuance done,10/23/2018,Substantial completion / handover done,11/22/2018 0:00,11/29/2018 0:00,3/11/2019,Completed,School,112158,32.846597,13.132059,Germany,139
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,14154.495,13722.36231,Completed,PO + Contract issuance done,10/19/2018,Substantial completion / handover done,11/17/2018 0:00,11/24/2018 0:00,3/1/2019,Completed,School,98720,32.843303,13.117147,Japan,133
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,14166.36703,14398.53143,Completed,PO + Contract issuance done,10/19/2018,Substantial completion / handover done,11/17/2018 0:00,11/24/2018 0:00,3/1/2019,Completed,School,98720,32.790746,13.087356,Japan,133
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,24212.30924,24466.27613,Completed,PO + Contract issuance done,10/19/2018,Substantial completion / handover done,11/17/2018 0:00,11/24/2018 0:00,3/1/2019,Completed,School,98720,32.850426,13.115976,Japan,133
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,14736.72884,12240.16297,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18396.28403,15279.74878,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18290.58662,15191.95769,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15015.83082,12471.98196,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15289.70192,12699.45625,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,59538.941,59510.56165,Completed,PO + Contract issuance done,8/25/2019,Substantial completion / handover done,6/17/2020 0:00,,1/3/2021,Completed,School,112158,32.682272,13.124754,South Korea,497
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,0,0,Completed,PO + Contract issuance done,8/25/2019,Substantial completion / handover done,6/17/2020 0:00,,1/3/2021,Completed,School,112158,32.691035,13.150522,South Korea,497
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,0,0,Completed,PO + Contract issuance done,8/25/2019,Substantial completion / handover done,6/17/2020 0:00,,1/3/2021,Completed,School,112158,32.599799,13.212469,South Korea,497
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,18724.21388,28189.63516,Completed,PO + Contract issuance done,11/26/2018,Substantial completion / handover done,12/16/2018 0:00,12/23/2018 0:00,4/19/2020,Completed,School,112158,32.68234444,13.12479722,EU,510
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,14801.97054,0,Completed,PO + Contract issuance done,11/26/2018,Substantial completion / handover done,12/16/2018 0:00,12/23/2018 0:00,4/19/2020,Completed,School,112158,32.69120833,13.15063889,EU,510
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,24460.4964,29809.05864,Completed,PO + Contract issuance done,11/26/2018,Substantial completion / handover done,12/16/2018 0:00,12/23/2018 0:00,4/19/2020,Completed,School,112158,,,EU,510
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18868.76223,15672.18391,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,14734.51867,12238.32722,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,32.61827778,13.22286111,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17829.57,14809.04241,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15595.43809,12953.39731,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16627.58905,13810.69041,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,15275.64858,11745.3079,Completed,PO + Contract issuance done,11/27/2018,Substantial completion / handover done,12/12/2018 0:00,12/19/2018 0:00,3/26/2019,Completed,School,112158,32.302,13.268,USA,119
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,19723.15832,16133.14284,Completed,PO + Contract issuance done,11/27/2018,Substantial completion / handover done,12/12/2018 0:00,12/19/2018 0:00,3/26/2019,Completed,School,112158,32.381,13.229,USA,119
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,16927.73669,22991.798,Completed,PO + Contract issuance done,11/27/2018,Substantial completion / handover done,12/12/2018 0:00,12/19/2018 0:00,3/26/2019,Completed,School,112158,32.467,13.256,USA,119
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,12426.7494,11798.1004,Completed,PO + Contract issuance done,11/19/2018,Substantial completion / handover done,12/19/2018 0:00,12/26/2018 0:00,11/7/2019,Completed,School,112158,32.408,13.228,USA,353
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,28157.57737,31251.58004,Completed,PO + Contract issuance done,11/19/2018,Substantial completion / handover done,12/19/2018 0:00,12/26/2018 0:00,11/7/2019,Completed,School,112158,32.299,13.269,USA,353
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,17114.57758,14562.59603,Completed,PO + Contract issuance done,11/19/2018,Substantial completion / handover done,12/19/2018 0:00,12/26/2018 0:00,11/7/2019,Completed,School,112158,32.444,13.283,USA,353
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,14514.81751,12055.84588,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18055.83048,14996.97185,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18967.51729,15754.20877,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18257.7441,15164.67905,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15854.6724,13168.71445,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,26281.32609,26281.32609,Completed,PO + Contract issuance done,11/8/2018,Substantial completion / handover done,11/15/2018 0:00,11/22/2018 0:00,4/25/2019,Completed,School,98720,32.90506,13.25506,South Korea,168
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,20010.90671,20010.90671,Completed,PO + Contract issuance done,11/8/2018,Substantial completion / handover done,11/15/2018 0:00,11/22/2018 0:00,4/25/2019,Completed,School,98720,32.88698,13.23045,South Korea,168
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,23505.17491,23428.97715,Completed,PO + Contract issuance done,11/8/2018,Substantial completion / handover done,11/15/2018 0:00,11/22/2018 0:00,4/25/2019,Completed,School,98720,32.89345,13.23845,South Korea,168
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,24237.42166,21192.93046,Completed,PO + Contract issuance done,10/26/2018,Substantial completion / handover done,11/2/2018 0:00,11/9/2018 0:00,3/6/2019,Completed,School,98720,32.90326,13.23848,Japan,131
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,9422.221743,12381.05437,Completed,PO + Contract issuance done,10/26/2018,Substantial completion / handover done,11/2/2018 0:00,11/9/2018 0:00,3/6/2019,Completed,School,98720,32.88927,13.23707,Japan,131
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,9558.569263,9899.475964,Completed,PO + Contract issuance done,10/26/2018,Substantial completion / handover done,11/2/2018 0:00,11/9/2018 0:00,3/6/2019,Completed,School,98720,32.89054,13.24417,Japan,131
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18397.39761,15280.6737,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15182.27794,12610.23109,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16349.07053,13579.35603,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18021.1994,14968.20766,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,16967.75896,14093.23176,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Supply of Generators,Phase 1,29789.12742,32398.64143,Completed,PO + Contract issuance done,10/3/2018,Substantial completion / handover done,,,6/30/2019,Completed,Generator,98720,,,Germany,270
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,16541.2735,50421.20769,Completed,PO + Contract issuance done,7/19/2018,Substantial completion / handover done,8/18/2018 0:00,8/25/2018 0:00,12/5/2018,Completed,School,98720,32.77055,13.4718,South Korea,139
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,15342.08775,0,Completed,PO + Contract issuance done,7/19/2018,Substantial completion / handover done,8/18/2018 0:00,8/25/2018 0:00,12/5/2018,Completed,School,98720,32.75745,13.31022,South Korea,139
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,18574.32102,0,Completed,PO + Contract issuance done,7/19/2018,Substantial completion / handover done,8/18/2018 0:00,8/25/2018 0:00,12/5/2018,Completed,School,98720,32.88028,13.3077,South Korea,139
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,15692.35305,61533.41831,Completed,PO + Contract issuance done,7/19/2018,Substantial completion / handover done,8/18/2018 0:00,8/25/2018 0:00,12/5/2018,Completed,School,98720,32.86849,13.3605,South Korea,139
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,22142.35589,0,Completed,PO + Contract issuance done,7/19/2018,Substantial completion / handover done,8/18/2018 0:00,8/25/2018 0:00,12/5/2018,Completed,School,98720,32.8906,13.33425,South Korea,139
+Works ,West,Tripoli,Education ,Rehabilitation of School,Phase 1,19728.06629,0,Completed,PO + Contract issuance done,7/19/2018,Substantial completion / handover done,8/18/2018 0:00,8/25/2018 0:00,12/5/2018,Completed,School,98720,32.79374,13.4407,South Korea,139
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,17457.66139,14500.13926,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15787.86726,13113.22684,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,18753.16265,15576.16819,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,15739.41445,13072.98247,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,West,Tripoli,Health ,Suppy of Medical Equipment,Phase 1,13084.89449,10868.16774,Completed,PO + Contract issuance done,1/29/2019,Substantial completion / handover done,,,11/5/2020,Completed,Medical Equipment,98720,,,Norway,646
+Goods ,East,Ajdabiya,Public Infrastructure and Services,Supply of Fire Fighting Trucks,Broadening,317229.6216,254588.6258,Completed,PO + Contract issuance done,6/25/2020,Substantial completion / handover done,,,5/7/2021,Completed,Firetruck,112158,,,Germany,316
+Goods ,East,Ajdabiya,Solid Waste Management,Supply of Garbage Trucks,Broadening,73765.7355,55611.64282,Completed,PO + Contract issuance done,6/2/2020,Substantial completion / handover done,,,6/11/2021,Completed,Garbage truck,112158,,,South Korea,374
+Works ,West,Bani Walid,Education ,Rehabilitation of University,Deepening,114678.1224,0,Completed,,,,,,,In Development,University,,,,,
+Works ,West,Bani Walid,Education ,Rehabilitation of University,Deepening,153942.0278,0,Completed,,,,,,,In Development,University,,,,,
+Works ,West,Bani Walid,Education ,Rehabilitation of University,Deepening,209612.5858,0,Completed,,,,,,,In Development,University,,31.744145,14.009215,,
+Works ,West,Bani Walid,Education ,Rehabilitation of University,Deepening,69950.87984,69950.87984,Completed,PO + Contract issuance done,3/25/2021,Substantial completion / handover done,6/10/2021 0:00,6/20/2021 0:00,10/4/2021,Completed,University,122619,31.757287,14.0259,EU,193
+Goods ,West,Bani Walid,Energy ,Provision of Power Cables,Deepening,78551.55151,78551.55151,Completed,PO + Contract issuance done,10/16/2019,Substantial completion / handover done,,,10/26/2019,Completed,Cable,112158,,,USA,10
+Goods ,West,Bani Walid,WASH,Supply of Sewage Pumps,Deepening,16823.43657,16823.43657,Completed,PO + Contract issuance done,4/25/2021,Substantial completion / handover done,,,5/27/2021,Completed,Water Pump,112158,,,UK,32
+Goods ,East,Benghazi ,WASH,Supply of Sewage Pumps,Deepening,223663.7513,192436.3738,Completed,PO + Contract issuance done,9/15/2019,Substantial completion / handover done,,,6/22/2020,Completed,Sewage Pump,112158,,,EU,281
+Works ,East,Benghazi ,Health ,Rehabilitation of Hospital,Deepening,178772.9634,178745.3758,Completed,PO + Contract issuance done,5/6/2020,Substantial completion / handover done,6/14/2020 0:00,7/30/2020 0:00,4/8/2021,Completed,Hospital,112158,32.076917,20.092889,Norway,337
+Works ,East,Benghazi ,Public Infrastructure and Services,Rehabilitation of Public Building,Deepening,71681.31254,71681.31254,Completed,PO + Contract issuance done,7/9/2020,Substantial completion / handover done,7/20/2020 0:00,,12/18/2020,Completed,Public Infrastructure,112158,32.119151,20.059695,Germany,162
+Works ,East,Benghazi ,Education ,Rehabilitation of School,Deepening,96613.86266,96598.54757,Completed,PO + Contract issuance done,12/18/2019,Substantial completion / handover done,12/23/2019 0:00,,7/20/2020,Completed,School,112158,32.115417,20.064722,Germany,215
+Works ,East,Benghazi ,Education ,Rehabilitation of School,Deepening,103199.2487,102696.2501,Completed,PO + Contract issuance done,6/18/2020,Substantial completion / handover done,7/27/2020 0:00,,10/14/2020,Completed,School,112158,32.143917,20.086722,Japan,118
+Works ,East,Benghazi ,Energy ,Supply and Installation of Solar Street Lights,Deepening,818666.9299,818666.9299,Completed,PO + Contract issuance done,1/9/2020,Substantial completion / handover done,6/29/2020 0:00,8/16/2020 0:00,6/10/2021,Completed,Solar Street Light,112158,,,Germany,518
+Works ,East,Benghazi ,Public Infrastructure and Services,Rehabilitation of Public Building,Deepening,264169.7825,264137.2378,Completed,PO + Contract issuance done,8/22/2020,Substantial completion / handover done,,11/18/2020 0:00,4/10/2021,Completed,Public Infrastructure,112158,32.118155,20.057811,Norway,231
+Works ,East,Benghazi ,Health ,Rehabilitation of Clinic,Deepening,30429.82566,30429.82566,Completed,PO + Contract issuance done,12/5/2020,Substantial completion / handover done,12/10/2020 0:00,,2/11/2021,Completed,Clinic,98720,,,France,68
+Works ,East,Benghazi ,Energy ,Rehabilitation of Substation,Deepening,64118.03639,64118.03639,Completed,PO + Contract issuance done,6/26/2021,Substantial completion / handover done,,7/28/2021 0:00,11/28/2021,Completed,Substation,112158,32.03624148,20.04402914,Libya,155
+Goods ,East,Derna,Health ,Supply of Ambulances,Broadening,106921.7889,94675.60818,Completed,PO + Contract issuance done,1/21/2020,Substantial completion / handover done,,,10/6/2020,Completed,Ambulance,112158,,,Germany,259
+Goods ,East,Derna,Solid Waste Management,Supply of Garbage Trucks,Broadening,196928.7857,148463.6901,Completed,PO + Contract issuance done,6/2/2020,Substantial completion / handover done,,,6/11/2021,Completed,Garbage truck,112158,,,South Korea,374
+Goods ,East,Derna,Public Infrastructure and Services,Supply of Fire Fighting Trucks,Broadening,293705.452,235709.6006,Completed,PO + Contract issuance done,6/25/2020,Substantial completion / handover done,,,5/7/2021,Completed,Firetruck,112158,,,Germany,316
+Goods ,East,Derna,WASH,Supply of Pesticide Sprayer Trucks,Broadening,71783.94338,59860.24796,Completed,PO + Contract issuance done,6/25/2020,Substantial completion / handover done,,,12/16/2020,Completed,Pesticide Sprayer,98720,,,France,174
+Goods ,East,Derna,Health ,Supply of Generators,Broadening,102649.1587,38058.25888,Completed,PO + Contract issuance done,6/25/2020,Substantial completion / handover done,,,1/28/2021,Completed,Incinerator,121748,,,Japan,217
+Goods ,East,Derna,WASH,Supply of Water Pumps,Broadening,46922.93676,41332.766,Completed,PO + Contract issuance done,4/13/2021,Substantial completion / handover done,,,11/8/2021,Completed,Water Pump,112158,32.7519513,22.640652,UK,209
+Works ,East,Derna,Public Infrastructure and Services,Rehabilitation of Public Market ,Broadening,134233.813,0,Completed,PO + Contract issuance done,6/22/2022,,,,,Underway,Public Infrastructure,127766,,,Japan,
+Works ,East,Derna,Education ,Rehabilitation of School,Broadening,87330.12852,78586.93859,Completed,PO + Contract issuance done,12/27/2020,Substantial completion / handover done,1/25/2021 0:00,2/20/2021 0:00,7/14/2021,Completed,School,112158,,,Libya,199
+Goods ,South,Ghat,WASH,Supply of Sewage Suction Trucks,Broadening,363592.6138,325946.0496,Completed,PO + Contract issuance done,7/23/2019,Substantial completion / handover done,,,11/12/2020,Completed,Sewage suction truck,112158,24.95831111,10.17555833,Japan,478
+Goods ,South,Ghat,WASH,Supply of Sewage Suction Trucks,Broadening,374792.9015,359748.2346,Completed,PO + Contract issuance done,7/18/2019,Substantial completion / handover done,,,7/14/2020,Completed,Water Tanker,112158,24.95831111,10.17555833,Germany,362
+Goods ,South,Ghat,WASH,Supply of Vehicles,Broadening,201029.2099,197214.4927,Completed,PO + Contract issuance done,7/25/2019,Substantial completion / handover done,,,12/18/2019,Completed,Vehicle,112158,24.95831111,10.17555833,USA,146
+Goods ,South,Ghat,WASH,Supply of Pesticide Sprayer Trucks,Broadening,97158.61948,87511.67192,Completed,PO + Contract issuance done,7/23/2019,Substantial completion / handover done,,,3/18/2020,Completed,Pesticide Sprayer,112158,24.97523333,10.18488889,EU,239
+Goods ,South,Ghat,WASH,Supply of Generators,Broadening,172731.4441,172934.269,Completed,PO + Contract issuance done,7/10/2019,Substantial completion / handover done,,,3/16/2020,Completed,Generator,112158,"24.97393889
+24.96379722
+24.95229444
+24.97313056
+24.96244444
+24.93944444
+24.94606389
+24.88128333
+24.89
+24.91415278
+25.0925
+25.78479722
+25.78435833
+25.76058611
+25.79748333
+25.82989444
+24.91415278
+24.96423889
+24.95082778
+24.949925
+24.97151944","10.07
+10.18631389
+10.040025
+10.01979167
+10.18905556
+10.16656111
+10.0769
+10.186225
+10.54
+10.53444444
+10.35299444
+10.56254722
+10.56076944
+10.56488889
+10.53606667
+10.51439444
+10.93833333
+10.18750833
+10.18582222
+10.15880278
+10.17559722",Germany,250
+Goods ,South,Ghat,WASH,Supply of Sewage Pumps,Broadening,55961.61059,40306.27064,Completed,PO + Contract issuance done,10/17/2019,Substantial completion / handover done,,,6/14/2020,Completed,Sewage Pump,112158,"24.96423889
+24.95082778
+24.949925
+24.97151944","10.18750833
+10.18582222
+10.15880278
+10.17559722",EU,241
+Goods ,South,Ghat,WASH,Supply of Water Pumps,Broadening,27783.914,15823.08264,Completed,PO + Contract issuance done,10/16/2019,Substantial completion / handover done,,,6/14/2020,Completed,Water Pump,112158,24.97308333,10.1847,Germany,242
+Goods ,South,Ghat,WASH,Supply of Sewage Pumps,Broadening,128763.8334,122346.095,Completed,PO + Contract issuance done,2/25/2020,Substantial completion / handover done,,,10/7/2020,Completed,Water Pump,112158,"24.97393889
+24.96379722
+24.95229444
+24.97313056
+24.96244444
+24.93944444
+24.94606389
+24.88128333
+24.89
+24.91415278
+25.0925
+25.78479722
+25.78435833
+25.76058611
+25.79748333
+25.82989444
+24.91415278","10.07
+10.18631389
+10.040025
+10.01979167
+10.18905556
+10.16656111
+10.0769
+10.186225
+10.54
+10.53444444
+10.35299444
+10.56254722
+10.56076944
+10.56488889
+10.53606667
+10.51439444
+10.93833333",Japan,225
+Goods ,South,Ghat,Public Infrastructure and Services,Supply of Personal Protection Equipment,Broadening,41298.72634,40612.655,Completed,PO + Contract issuance done,6/2/2020,Substantial completion / handover done,,,4/11/2021,Completed,PPE,98720,24.97308333,10.1847,France,313
+Goods ,South,Ghat,WASH,Supply of Generators,Broadening,97709.6259,26098.80738,Completed,PO + Contract issuance done,10/18/2019,Substantial completion / handover done,,,3/18/2020,Completed,Generator,112158,24.97308333,10.1847,EU,152
+Goods ,South,Ghat,Energy ,Provision of Power Cables,Broadening,117510.2966,117510.2966,Completed,PO + Contract issuance done,7/30/2019,Substantial completion / handover done,,,9/23/2019,Completed,Cable,112158,24.964075,10.18579167,USA,55
+Goods ,South,Ghat,WASH,Supply of Equipment,Broadening,2979.383655,2979.383655,Completed,PO + Contract issuance done,8/14/2020,Substantial completion / handover done,,,5/11/2021,Completed,Mechanical equipment,112158,24.97308333,10.1847,Germany,270
+Goods ,South,Ghat,WASH,Supply of Sewage Pumps,Broadening,35203.48349,0,BOQ development stage,,,,,,,In Development,Water Pump,,,,,
+Goods ,South,Ghat,WASH,Supply of Pipes and Fittings,Broadening,6654.472495,0,BOQ development stage,,,,,,,In Development,WASH equipment,,,,,
+Goods ,South,Ghat,WASH,Supply of Pipes and Fittings,Broadening,5362.05926,0,BOQ development stage,,,,,,,In Development,WASH equipment,,,,,
+Works ,South,Kufra,WASH,Borehole Drilling,Broadening,136946.6975,0,Completed,PO + Contract issuance done,,,3/31/2021 0:00,,,With Procurement,Borehole drilling,112158,"24.3261916666667
+24.2199388888889","23.1863083333333
+23.2964083333333",EU,
+Works ,South,Kufra,Energy ,Supply of transformers,Broadening,78366.39541,0,Completed,,1/29/2021,,3/2/2021 0:00,,,In Development,Transformers,122619,,,,
+Works ,South,Kufra,Public Infrastructure and Services,Rehabilitation of Public Infrastructure,Broadening,389741.5229,0,Completed,,,,,,,In Development,Public Infrastructure,,,,Germany,
+Works ,South,Kufra,Energy ,Supply and Installation of Solar Street Lights,Broadening,491795.6396,491795.6396,Completed,PO + Contract issuance done,7/13/2020,Substantial completion / handover done,10/12/2020 0:00,,4/8/2021,Completed,Solar Street Light,112158,,,Norway,269
+Works ,South,Kufra,Public Infrastructure and Services,Rehabilitation of Public Infrastructure,Broadening,53506.22743,0,BOQ development stage,,,,,,,In Development,Public Infrastructure,,,,,
+Goods ,South,Kufra,Public Infrastructure and Services,Supply of Fire Fighting Trucks,Broadening,105813.5355,0,BOQ development stage,,,,,,,In Development,Firetruck,,,,,
+Goods ,South,Kufra,Public Infrastructure and Services,Supply of Vehicles,Broadening,109731.3277,83759.58802,Completed,PO + Contract issuance done,5/20/2020,Substantial completion / handover done,,,5/25/2021,Completed,Mechanical equipment,112158,,,Germany,370
+Works ,South,Kufra,Education ,Rehabilitation of School,Broadening,59891.71107,0,To be initiated,,,,,,,In Development,School,,,,,
+Works ,South,Kufra,Education ,Rehabilitation of School,Broadening,80002.68082,0,To be initiated,,,,,,,In Development,School,,,,,
+Works ,South,Sebha ,Education ,Rehabilitation of School,Deepening,170476.0702,169882.5548,Completed,PO + Contract issuance done,12/12/2019,Substantial completion / handover done,1/8/2020 0:00,,8/27/2020,Completed,School,112158,"27.0283972222222
+27.0254333333333","14.4411833333333
+14.4364833333333",Germany,259
+Works ,South,Sebha ,Education ,Rehabilitation of School,Deepening,171275.0155,171211.7498,Completed,PO + Contract issuance done,10/17/2019,Substantial completion / handover done,10/31/2019 0:00,,5/11/2020,Completed,School,112158,"27.0249
+27.0266333333333","14.4323222222222
+14.4330194444444",EU,207
+Works ,South,Sebha ,Public Infrastructure and Services,Rehabilitation of Public Building,Deepening,120593.649,119637.3806,Completed,PO + Contract issuance done,11/14/2019,Substantial completion / handover done,,11/12/2019 0:00,7/5/2021,Completed,Public Infrastructure,112158,27.04611944,14.42039167,Japan,599
+Works ,South,Sebha ,Education ,Rehabilitation of School,Deepening,88464.45217,0,Completed,PO + Contract issuance done,8/10/2022,Work progress 0 - 25%,8/21/2022 0:00,,,Underway,School,112158,"27.0360833333333
+27.0372916666667","14.411175
+14.4127972222222",Netherlands,
+Works ,South,Sebha ,Education ,Rehabilitation of School,Deepening,93331.9589,93217.4136,Completed,PO + Contract issuance done,2/14/2020,Substantial completion / handover done,9/1/2020 0:00,9/8/2020 0:00,1/21/2021,Completed,School,112158,"27.04135
+27.04985","14.430925
+14.4158777777778",Japan,342
+Works ,South,Sebha ,Education ,Rehabilitation of School,Deepening,42699.4298,42684.22687,Completed,PO + Contract issuance done,3/27/2020,Substantial completion / handover done,9/29/2020 0:00,,5/5/2021,Completed,School,112158,26.43858056,14.27355278,Germany,404
+Works ,South,Sebha ,Health ,Rehabilitation of Clinic,Deepening,79220.10523,0,Completed,PO + Contract issuance done,1/20/2022,Work progress over 75%,2/1/2022 0:00,,,Underway,Clinic,122619,27.06589444,14.41968056,EU,
+Works ,South,Sebha ,Health ,Rehabilitation of Clinic,Deepening,172061.0102,172060.5773,Completed,PO + Contract issuance done,1/12/2020,Substantial completion / handover done,1/20/2020 0:00,,8/24/2020,Completed,Clinic,112158,27.01353333,14.44078333,Netherlands,225
+Works ,South,Sebha ,Health ,Rehabilitation of Clinic,Deepening,30876.74837,30853.9786,Completed,PO + Contract issuance done,12/5/2019,Substantial completion / handover done,1/2/2020 0:00,,5/3/2020,Completed,Clinic,112158,27.0361,14.41595556,EU,150
+Works ,South,Sebha ,Health ,Rehabilitation of Clinic,Deepening,52846.93176,52828.77751,Completed,PO + Contract issuance done,12/6/2019,Substantial completion / handover done,1/19/2020 0:00,1/26/2020 0:00,1/10/2021,Completed,Clinic,112158,27.04213333,14.40374167,Japan,401
+Works ,South,Sebha ,Health ,Rehabilitation of Clinic,Deepening,48509.43813,49516.06429,Completed,PO + Contract issuance done,6/26/2020,Substantial completion / handover done,9/6/2020 0:00,9/10/2020 0:00,1/5/2021,Completed,Clinic,112158,"27.0479444444444
+27.0408166666667","14.4284694444444
+14.4339111111111",Germany,193
+Goods ,South,Sebha ,Health ,Supply of Ambulances,Deepening,44323.00309,31062.06901,Completed,PO + Contract issuance done,9/23/2019,Substantial completion / handover done,,,3/12/2020,Completed,Ambulance,112158,26.43950278,14.27448611,South Korea,171
+Works ,South,Sebha ,Health ,Rehabilitation of Clinic,Deepening,37043.18536,35793.87142,Completed,PO + Contract issuance done,12/12/2019,Substantial completion / handover done,12/25/2019 0:00,1/2/2020 0:00,5/2/2021,Completed,Clinic,98720,26.878575,14.42714444,Germany,507
+Goods ,South,Sebha ,WASH,Supply of Sewage Suction Trucks,Deepening,322136.184,263166.2688,Completed,PO + Contract issuance done,7/4/2019,Substantial completion / handover done,,,7/22/2020,Completed,Sewage suction truck,112158,27.03821944,14.43168333,Germany,384
+Goods ,South,Sebha ,WASH,Supply of Sewage Pumps,Deepening,152954.5484,105231.3666,Completed,PO + Contract issuance done,10/1/2019,Substantial completion / handover done,,,7/22/2020,Completed,Sewage Pump,112158,27.03821944,14.43168333,EU,295
+Works ,South,Sebha ,WASH,Supply of Generators,Deepening,34072.90304,34061.46573,Completed,PO + Contract issuance done,6/21/2020,Substantial completion / handover done,9/3/2020 0:00,9/18/2020 0:00,12/20/2020,Completed,Public Infrastructure,112158,refer to list,refer to list,Germany,182
+Works ,South,Sebha ,Energy ,Supply and Installation of Solar Street Lights,Deepening,1985669.675,1985669.675,Completed,PO + Contract issuance done,3/3/2020,Substantial completion / handover done,12/3/2020 0:00,12/10/2020 0:00,12/23/2021,Completed,Solar Street Light,112158,refer to list,refer to list,Germany,660
+Works ,South,Sebha ,Public Infrastructure and Services,Rehabilitation of Public Infrastructure,Deepening,536641.9109,0,Completed,,4/11/2020,,,,,In Development,Public Infrastructure,,27.02655556,14.45752222,Germany,
+Works ,South,Sebha ,Public Infrastructure and Services,Rehabilitation of Public Building,Deepening,78290.27339,22795.91082,Completed,PO + Contract issuance done,5/12/2021,Work progress over 75%,9/15/2021 0:00,10/25/2021 0:00,,Underway,Public Infrastructure,122619,27.00861667,14.43847222,EU,
+Goods ,South,Sebha ,Energy ,Provision of Power Cables,Deepening,72812.15485,72812.15485,Completed,PO + Contract issuance done,7/30/2019,Substantial completion / handover done,,,9/8/2019,Completed,Cable,112158,27.00249722,14.46126944,USA,40
+Works ,West,Sirt,Education ,Rehabilitation of School,Deepening,201438.7187,176856.9766,Completed,PO + Contract issuance done,4/15/2020,Substantial completion / handover done,4/26/2020 0:00,,10/28/2020,Completed,School,112158,31.199928,16.608344,Germany,196
+Works ,West,Sirt,Education ,Rehabilitation of School,Deepening,97582.5147,87824.26323,Completed,PO + Contract issuance done,8/18/2021,Substantial completion / handover done,,,2/25/2022,Completed,School,122619,31.20936111,16.58605556,EU,191
+Works ,West,Sirt,Education ,Rehabilitation of School,Deepening,120496.6297,120496.6297,Completed,PO + Contract issuance done,11/6/2020,Substantial completion / handover done,11/16/2020 0:00,,4/15/2021,Completed,School,122619,31.20805556,16.56603056,EU,160
+Works ,West,Sirt,Education ,Rehabilitation of School,Deepening,588620.0048,0,To be initiated,,,,,,,In Development,School,,,,,
+Goods ,West,Sirt,Health ,Supply of Generators,Deepening,81271.16022,0,Completed,,4/6/2022,,,,,Underway,Generator,122619,,,EU,
+Goods ,West,Sirt,WASH,Supply of Generators,Deepening,66857.55865,0,Completed,,,,,,,In Development,Mechanical equipment,,,,,
+Goods ,West,Sirt,WASH,Supply of Generators,Deepening,102899.6752,0,Completed,,4/6/2022,,,,,Underway,Generator,122619,,,EU,
+Goods ,West,Sirt,WASH,Supply of Water Pumps,Deepening,38263.75733,0,Completed,PO + Contract issuance done,7/21/2022,,,,,Underway,Water Pump,112158,,,South Korea,
+Goods ,West,Sirt,Public Infrastructure and Services,Supply of Generators,Deepening,88872.901,0,Completed,,4/6/2022,,,,,Underway,Vehicle,112158,,,Switzerland,
+Goods ,West,Sirt,Public Infrastructure and Services,Supply of Generators,Deepening,82658.73329,0,Completed,,4/6/2022,,,,,Underway,Pesticide Sprayer,98720,,,Norway,
+Goods ,West,Sirt,Public Infrastructure and Services,Supply of Generators,Deepening,104407.6817,0,BOQ development stage,,,,,,,In Development,Vehicle,,,,,
+Works ,West,Sirt,Public Infrastructure and Services,Rehabilitation of Public Building,Deepening,45237.43202,45205.03523,Completed,PO + Contract issuance done,4/17/2021,Substantial completion / handover done,4/22/2021 0:00,4/29/2021 0:00,9/14/2021,Completed,Public Infrastructure,122619,31.21058333,16.58672222,EU,150
+Goods ,West,Sirt,Health ,Supply of Generators,Deepening,119327.8928,0,Completed,,,,,,,In Development,Generator,,,,,
+Works ,West,Sirt,Education ,Rehabilitation of School,Deepening,137591.9731,0,Completed,PO + Contract issuance done,9/3/2022,Site Handover done,9/4/2022 0:00,,,Underway,School,127766,31.19522222,16.57666667,Japan,
+Goods ,West,Sirt,Health ,Supply of Ambulances,Deepening,71745.30176,0,Completed,,4/6/2022,,,,,Underway,Ambulance,127766,,,Japan,
+Goods ,West,Tawergha,Health ,Supply of Ambulances,Broadening,39020.11044,0,Completed,PO + Contract issuance done,12/1/2018,Substantial completion / handover done,,,8/28/2019,Completed,Ambulance,112158,,,,270
+Works ,West,Tawergha,Energy ,Supply and Installation of Solar Street Lights,Broadening,70864.45939,70864.45939,Completed,PO + Contract issuance done,9/3/2019,Substantial completion / handover done,,,1/23/2020,Completed,Solar Street Light,112158,,,EU,142
+Works ,West,Tawergha,Education ,Rehabilitation of School,Broadening,71058.61637,71058.61637,Completed,PO + Contract issuance done,1/10/2020,Substantial completion / handover done,5/12/2020 0:00,,7/7/2020,Completed,School,112158,,,Germany,179
+Works ,West,Tawergha,Education ,Rehabilitation of School,Broadening,49876.22435,49868.22671,Completed,PO + Contract issuance done,1/30/2020,Substantial completion / handover done,5/12/2020 0:00,,7/27/2020,Completed,School,112158,,,Germany,179
+Works ,West,Tawergha,Education ,Rehabilitation of School,Broadening,51601.34609,51582.36146,Completed,PO + Contract issuance done,1/21/2020,Substantial completion / handover done,5/12/2020 0:00,5/16/2020 0:00,9/2/2020,Completed,School,112158,,,Germany,225
+Goods ,West,Tawergha,Public Infrastructure and Services,Supply of Computer Equipment,Broadening,23771.7569,23771.7569,Completed,PO + Contract issuance done,4/29/2020,Substantial completion / handover done,,,10/31/2020,Completed,IT equipment,112158,,,Norway,185
+Works ,West,Tawergha,Public Infrastructure and Services,Rehabilitation of Public Building,Broadening,5900.573397,5828.09962,Completed,PO + Contract issuance done,8/26/2020,Substantial completion / handover done,9/2/2020 0:00,9/2/2020 0:00,9/13/2020,Completed,Public Infrastructure,112158,,,Germany,18
+Works ,West,Tawergha,Energy ,Supply and Installation of Solar Street Lights,Broadening,286228.1363,286228.1363,Completed,PO + Contract issuance done,11/16/2020,Substantial completion / handover done,12/17/2020 0:00,,8/23/2021,Completed,Solar Street Light,122619,,,EU,280
+Goods ,West,Tawergha,WASH,Supply of Sewage Suction Trucks,Broadening,112989.8825,110121.5559,Completed,PO + Contract issuance done,12/31/2020,Substantial completion / handover done,,,3/22/2022,Completed,Sewage suction truck,112158,,,Libya,446
+Goods ,West,Tawergha,WASH,Supply of Water Tankers,Broadening,65857.64134,54251.7816,Completed,PO + Contract issuance done,12/31/2020,Substantial completion / handover done,,,3/22/2022,Completed,Water Tanker,112158,,,Libya,446
+Goods ,West,Tawergha,WASH,Supply of Pesticide Sprayer Trucks,Broadening,64524.11074,54309.06029,Completed,PO + Contract issuance done,12/31/2020,Substantial completion / handover done,,,9/8/2021,Completed,Pesticide Sprayer,112158,,,Libya,251
+Works ,West,Tawergha,Health ,Rehabilitation of Clinic,Broadening,138433.2597,0,Completed,PO + Contract issuance done,1/22/2022,Work progress 50% - 75%,2/3/2022 0:00,,,Underway,Clinic,122619,,,EU,
+Works ,West,Tawergha,Public Infrastructure and Services,Cleaning Works and Removal of War Remnants,Broadening,98419.04601,98419.04601,Completed,PO + Contract issuance done,5/3/2021,Substantial completion / handover done,6/9/2021 0:00,,8/25/2021,Completed,ERW removal,112158,,,UK,114
+Works ,West,Tawergha,WASH,Supply of Water Pumps,Broadening,218721.2029,0,Completed,PO + Contract issuance done,6/14/2022,Site Handover done,6/22/2022 0:00,,,Underway,WASH equipment,112158,,,Libya,
+Goods ,West,Tripoli,Solid Waste Management,Supply of Refuse Trailers,Deepening,1715388.524,1543358.503,Completed,PO + Contract issuance done,7/25/2019,Substantial completion / handover done,,,4/6/2020,Completed,Gargabe trailer,112158,,,Germany,256
+Goods ,West,Tripoli,Solid Waste Management,Supply of Refuse Trailers,Deepening,566802.2641,520509.7766,Completed,PO + Contract issuance done,11/21/2019,Substantial completion / handover done,,,7/1/2020,Completed,Gargabe trailer,112158,,,EU,223
+Works ,West,Tripoli,Public Infrastructure and Services,Supply & Installation of Eco-LED Street light,Deepening,227413.8948,0,Completed,PO + Contract issuance done,11/12/2021,,,,,Underway,LED Light,127766,,,Japan,
+Works ,West,Tripoli,Public Infrastructure and Services,Rehabilitation of Public Infrastructure,Deepening,651825.1801,361881.2438,Completed,PO + Contract issuance done,6/20/2021,Work progress over 75%,9/29/2021 0:00,,,Underway,Public Infrastructure,112158,,,Libya,
+Works ,West,Tripoli,Public Infrastructure and Services,Cleaning Works and Removal of War Remnants,Deepening,46816.13962,46816.13962,Completed,PO + Contract issuance done,12/30/2020,Substantial completion / handover done,,,3/31/2021,Completed,ERW removal,112158,,,Libya,91
+Works ,West,Tripoli,Public Infrastructure and Services,Cleaning Works and Removal of War Remnants,Deepening,107037.3674,56749.18772,Completed,PO + Contract issuance done,4/8/2021,Substantial completion / handover done,,,8/9/2022,Completed,ERW removal,112158,,,UK,488
+Works ,South,Ubari,Education ,Rehabilitation of University,Deepening,173128.6563,0,Completed,,,,,,,In Development,University,,26.58968611,12.76840833,Germany,
+Works ,South,Ubari,Education ,Rehabilitation of University,Deepening,155825.3897,155781.179,Completed,PO + Contract issuance done,12/10/2019,Substantial completion / handover done,,12/24/2019 0:00,10/4/2020,Completed,University,112158,26.59029444,12.76851944,Netherlands,299
+Works ,South,Ubari,Public Infrastructure and Services,Rehabilitation of Public Building,Deepening,345994.7089,345414.1489,Completed,PO + Contract issuance done,11/1/2019,Substantial completion / handover done,11/10/2019 0:00,,10/4/2020,Completed,Public Infrastructure,112158,26.59594444,12.77984722,EU,338
+Works ,South,Ubari,Energy ,Supply and Installation of Solar Street Lights,Deepening,1000517.471,1000517.471,Completed,PO + Contract issuance done,1/9/2020,Substantial completion / handover done,,4/15/2020 0:00,11/26/2020,Completed,Solar Street Light,112158,26.58958333,12.77493889,Germany,322
+Works ,South,Ubari,Public Infrastructure and Services,Rehabilitation of Public Infrastructure,Deepening,224228.6433,201800.1467,Completed,PO + Contract issuance done,12/24/2020,Substantial completion / handover done,,4/6/2021 0:00,3/27/2022,Completed,Public Infrastructure,112158,26.58765833,12.77708333,Libya,458
+Works ,South,Ubari,Public Infrastructure and Services,Rehabilitation of Public Infrastructure,Deepening,20417.95062,20410.83812,Completed,PO + Contract issuance done,2/6/2021,Substantial completion / handover done,,2/21/2021 0:00,8/29/2021,Completed,Public Infrastructure,112158,,,South Korea,204
+Works ,South,Ubari,Education ,Rehabilitation of University,Deepening,470870.2418,236025.3461,Completed,PO + Contract issuance done,9/24/2020,Works completed,10/26/2020 0:00,2/1/2021 0:00,,Underway,University,112158,,,UK,
+Goods ,West,Tripoli,Covid-19,Covid-19 Medical Equipment,Deepening,13470.58467,13470.58467,Completed,PO + Contract issuance done,12/5/2019,Substantial completion / handover done,,,8/31/2020,Completed,,112158,,,Germany,270
+Goods ,West,Tripoli,Covid-19,Covid-19 Medical Equipment,Deepening,86742.22305,0,Completed,PO + Contract issuance done,7/15/2019,Substantial completion / handover done,,,4/10/2020,Completed,,,,,,270
+Goods ,West,Tripoli,Covid-19,Covid-19 Medical Equipment,Deepening,0,0,Completed,PO + Contract issuance done,1/19/2020,Substantial completion / handover done,,,10/15/2020,Completed,,,,,,270
+Goods ,West,Tripoli,Covid-19,Covid-19 Medical Equipment,Deepening,59106.77826,0,Completed,Advertisement period completed,,,,,,With Procurement,,,,,Japan,
+Works ,South,Kufra,Covid-19,Covid-19 Isolatin Centre,Broadening,21792.57911,21074.13672,Completed,PO + Contract issuance done,2/4/2021,Substantial completion / handover done,2/15/2021 0:00,2/28/2021 0:00,8/4/2021,Completed,Hospital,122619,,,EU,181
+Goods ,South,Ghat,Covid-19,Covid-19 Medical Equipment,Broadening,63416.03886,0,Completed,PO + Contract issuance done,4/6/2020,Substantial completion / handover done,,,1/1/2021,Completed,Medical Equipment,,,,Germany,270
+Works ,East,Derna,Covid-19,Covid-19 Isolatin Centre,Broadening,163477.9162,0,Completed,PO + Contract issuance done,12/3/2021,Work progress 50% - 75%,12/18/2021 0:00,,,Underway,Hospital,127766,,,Japan,
+Goods ,South,Sebha ,Covid-19,Covid-19 Medical Equipment,Deepening,87511.28839,74622.43238,Completed,PO + Contract issuance done,6/3/2020,Substantial completion / handover done,,,2/28/2021,Completed,,98720,,,Norway,270
+Goods ,East,Ajdabiya,Covid-19,Covid-19 Medical Equipment,Broadening,127602.9623,100640.1191,Completed,PO + Contract issuance done,5/21/2020,Substantial completion / handover done,,,2/15/2021,Completed,,98720,,,Norway,270
+Goods ,West,Tripoli,Covid-19,Covid-19 Medical Equipment,Deepening,0,0,Completed,PO + Contract issuance done,5/1/2020,Substantial completion / handover done,,,1/26/2021,Completed,,,,,,270
+Goods ,West,Tripoli,Covid-19,Covid-19 Medical Equipment,Deepening,147392.8445,146918.6854,Completed,PO + Contract issuance done,11/13/2020,Substantial completion / handover done,,,8/10/2021,Completed,,112158,,,Germany,270
+Works ,West,Tripoli,Covid-19,Covid-19 Isolatin Centre,Deepening,206275.3189,206275.3189,Completed,PO + Contract issuance done,7/25/2021,Substantial completion / handover done,,,11/18/2021,Completed,Medical Equipment,127766,,,Japan,116
+Works ,West,Tripoli,Covid-19,Covid-19 Isolatin Centre,Deepening,238260.0327,0,To be initiated,,,,,,,In Development,Medical Equipment,,,,,
