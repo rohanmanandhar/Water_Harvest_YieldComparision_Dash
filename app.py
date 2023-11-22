@@ -115,6 +115,42 @@ app.layout = dbc.Container([
                     ], width=8)
                 ])
             ]), # End of Sector Wise Tab - 2
+
+            dbc.Tab(label="Yearly Progress", children=[
+                html.Br(),
+                dbc.Row([
+                    dbc.Col([
+                            dbc.Card([
+                            dcc.Markdown("**Select Sector**"),
+                            dcc.Dropdown(
+                                id="sector_picker2",
+                                options=[{"label": i, "value": i} for i in df["Sector"].unique()],
+                                value=[],
+                                multi=True,
+                                className="dbc"
+                            ),
+                            dcc.Markdown("**Select Location**"),
+                            dcc.Dropdown(
+                                id="location_picker2",
+                                options=[{"label": i, "value": i} for i in sorted(df["Location"].unique())],
+                                value=[],
+                                multi=True,
+                                className="dbc"
+                            )
+                        ]),     
+                    ], width=4),
+                    dbc.Col([
+                        html.Br(),
+                        html.H4(id="map5-title", style={"text-align": "center"}),
+                        html.Br(),
+                        dcc.Graph(id="graph5", style={'height': '37.5vh'}),
+                        html.Br(),
+                        html.H4(id="map6-title", style={"text-align": "center"}),
+                        html.Br(),
+                        dcc.Graph(id="graph6", style={'height': '37.5vh'})
+                    ], width=8)
+                ])
+            ]), # End of Yearly Progress Tab - 3
     ])
 ])
 
@@ -177,6 +213,7 @@ def update_map1(status, sector):
     showlegend=False,
     ).update_yaxes(  # Add some padding to the y-axis
     range=[0, 1.1 * sfl_merged["Number of Activities"].max()],
+    tickformat="d"
     )
 
     return title, fig
@@ -349,6 +386,7 @@ def update_map3(status, location):
     showlegend=False,
     ).update_yaxes(  # Add some padding to the y-axis
     range=[0, 1.2 * sfl_merged["Number of Activities"].max()],
+    tickformat="d"
     )
 
     return title, fig
@@ -458,4 +496,241 @@ def update_map4(status, location):
     title_text='Amount in Million US$'  # Set y-axis label
     )
 
-    return title, fig # End of Sector Wise Tab - 1
+    return title, fig # End of Sector Wise Tab - 2
+
+
+@app.callback(
+    Output("map5-title", "children"),
+    Output("graph5", "figure"),
+    Input("sector_picker2", "value"),
+    Input("location_picker2", "value")
+)
+
+def update_map5(sector, location):
+
+    df['Contract Signing'] = pd.to_datetime(df['Contract Signing'])
+    df['Actual completion date'] = pd.to_datetime(df['Actual completion date'])
+    
+    title = "Contracts Issued by Year"
+    
+    if not sector and not location:
+        sfl = df
+        # Create a new column 'Year' which consists of only the year portion from 'Actual completion date' column
+        sfl['Year'] = sfl['Contract Signing'].dt.year
+
+        # Drop any Null or NA values
+        sfl = sfl.dropna(subset=['Year'])
+
+        # Convert 'Year' to int
+        sfl['Year'] = sfl['Year'].astype(int)
+
+        # Convert 'Year' to string
+        sfl['Year'] = sfl['Year'].astype(str)
+
+        # Perform the grouping operation using the new 'Year' column
+        df_contract = sfl.groupby('Year')['Contract Signing'].count().reset_index(name='Number of Activities')    
+    
+    elif sector and not location:
+        sfl = df.query("`Sector` in @sector")
+        # Create a new column 'Year' which consists of only the year portion from 'Actual completion date' column
+        sfl['Year'] = sfl['Contract Signing'].dt.year
+
+        # Drop any Null or NA values
+        sfl = sfl.dropna(subset=['Year'])
+
+        # Convert 'Year' to int
+        sfl['Year'] = sfl['Year'].astype(int)
+
+        # Convert 'Year' to string
+        sfl['Year'] = sfl['Year'].astype(str)
+
+        # Perform the grouping operation using the new 'Year' column
+        df_contract = sfl.groupby('Year')['Contract Signing'].count().reset_index(name='Number of Activities')
+        
+
+    elif not sector and location:
+        sfl = df.query("`Location` in @location")
+        # Create a new column 'Year' which consists of only the year portion from 'Actual completion date' column
+        sfl['Year'] = sfl['Contract Signing'].dt.year
+
+        # Drop any Null or NA values
+        sfl = sfl.dropna(subset=['Year'])
+
+        # Convert 'Year' to int
+        sfl['Year'] = sfl['Year'].astype(int)
+
+        # Convert 'Year' to string
+        sfl['Year'] = sfl['Year'].astype(str)
+
+        # Perform the grouping operation using the new 'Year' column
+        df_contract = sfl.groupby('Year')['Contract Signing'].count().reset_index(name='Number of Activities')
+        
+
+    else:
+        sfl = df.query("`Sector` in @sector").query("`Location` in @location")
+        # Create a new column 'Year' which consists of only the year portion from 'Actual completion date' column
+        sfl['Year'] = sfl['Contract Signing'].dt.year
+
+        # Drop any Null or NA values
+        sfl = sfl.dropna(subset=['Year'])
+
+        # Convert 'Year' to int
+        sfl['Year'] = sfl['Year'].astype(int)
+
+        # Convert 'Year' to string
+        sfl['Year'] = sfl['Year'].astype(str)
+
+        # Perform the grouping operation using the new 'Year' column
+        df_contract = sfl.groupby('Year')['Contract Signing'].count().reset_index(name='Number of Activities')
+        
+
+        
+    fig=px.line(df_contract,
+        x='Year', 
+        y='Number of Activities', 
+        hover_name="Year",
+        ).update_traces(
+            mode='lines+markers',
+            hovertemplate="<b style='font-size: 15px;'>%{hovertext}</b><br><br>Total Contracts Issued: %{y}", # Customise hover template 
+            marker=dict(size=10),
+            marker_color='yellow',
+            line=dict(width=2)
+        ).update_yaxes(  # Add some padding to the y-axis
+            range=[0, 1.2 * df_contract["Number of Activities"].max()],
+            tickformat="d"
+        ).update_xaxes(
+            tickformat="d",
+            nticks=len(df_contract['Year'].unique())
+        ).add_trace(
+        go.Scatter(
+            x=df_contract['Year'],
+            y=df_contract['Number of Activities'] + 0.05 * df_contract['Number of Activities'].max(),  # adjust the factor as needed,
+            mode='text',  # this trace is only for text
+            text=df_contract['Number of Activities'],
+            textposition='top center',
+            showlegend=False,
+            hoverinfo='none'  # avoid hover data
+        )
+    )
+    
+    return title, fig
+
+
+
+@app.callback(
+    Output("map6-title", "children"),
+    Output("graph6", "figure"),
+    Input("sector_picker2", "value"),
+    Input("location_picker2", "value")
+)
+
+def update_map6(sector, location):
+
+    df['Contract Signing'] = pd.to_datetime(df['Contract Signing'])
+    df['Actual completion date'] = pd.to_datetime(df['Actual completion date'])
+    
+    title = "Activities Completed by Year"
+    
+
+    
+    if not sector and not location:
+        sfl = df  
+
+        # Create a new column 'Year' which consists of only the year portion from 'Actual completion date' column
+        sfl['Year'] = sfl['Actual completion date'].dt.year
+
+        # Drop any Null or NA values
+        sfl = sfl.dropna(subset=['Year'])
+
+        # Convert 'Year' to int
+        sfl['Year'] = sfl['Year'].astype(int)
+
+        # Convert 'Year' to string
+        sfl['Year'] = sfl['Year'].astype(str)
+
+        # Perform the grouping operation using the new 'Year' column
+        df_complete = sfl.groupby('Year')['Actual completion date'].count().reset_index(name='Number of Activities')
+    
+    elif sector and not location:
+        sfl = df.query("`Sector` in @sector")
+        
+        # Create a new column 'Year' which consists of only the year portion from 'Actual completion date' column
+        sfl['Year'] = sfl['Actual completion date'].dt.year
+
+        # Drop any Null or NA values
+        sfl = sfl.dropna(subset=['Year'])
+
+        # Convert 'Year' to int
+        sfl['Year'] = sfl['Year'].astype(int)
+
+        # Convert 'Year' to string
+        sfl['Year'] = sfl['Year'].astype(str)
+
+        # Perform the grouping operation using the new 'Year' column
+        df_complete = sfl.groupby('Year')['Actual completion date'].count().reset_index(name='Number of Activities')
+
+    elif not sector and location:
+        sfl = df.query("`Location` in @location")
+
+        # Create a new column 'Year' which consists of only the year portion from 'Actual completion date' column
+        sfl['Year'] = sfl['Actual completion date'].dt.year
+
+        # Drop any Null or NA values
+        sfl = sfl.dropna(subset=['Year'])
+
+        # Convert 'Year' to int
+        sfl['Year'] = sfl['Year'].astype(int)
+
+        # Convert 'Year' to string
+        sfl['Year'] = sfl['Year'].astype(str)
+
+        # Perform the grouping operation using the new 'Year' column
+        df_complete = sfl.groupby('Year')['Actual completion date'].count().reset_index(name='Number of Activities')
+        
+
+    else:
+        sfl = df.query("`Sector` in @sector").query("`Location` in @location")
+
+        # Create a new column 'Year' which consists of only the year portion from 'Actual completion date' column
+        sfl['Year'] = sfl['Actual completion date'].dt.year
+
+        # Drop any Null or NA values
+        sfl = sfl.dropna(subset=['Year'])
+
+        # Convert 'Year' to int
+        sfl['Year'] = sfl['Year'].astype(int)
+
+        # Convert 'Year' to string
+        sfl['Year'] = sfl['Year'].astype(str)
+
+        # Perform the grouping operation using the new 'Year' column
+        df_complete = sfl.groupby('Year')['Actual completion date'].count().reset_index(name='Number of Activities')
+        
+    fig=px.line(df_complete,
+        x='Year', 
+        y='Number of Activities', 
+        hover_name="Year",
+        ).update_traces(
+            mode='lines+markers',
+            hovertemplate="<b style='font-size: 15px;'>%{hovertext}</b><br><br>Total Completed: %{y}", # Customise hover template 
+            marker=dict(size=10),
+            marker_color='green',
+            line=dict(width=2)
+        ).update_yaxes(  # Add some padding to the y-axis
+            range=[0, 1.2 * df_complete["Number of Activities"].max()],
+            tickformat="d"
+        ).update_xaxes(
+            nticks=len(df_complete['Year'].unique())
+        ).add_trace(
+        go.Scatter(
+            x=df_complete['Year'],
+            y=df_complete['Number of Activities']+ 0.05 * df_complete['Number of Activities'].max(),  # adjust the factor as needed,
+            mode='text',  # this trace is only for text
+            text=df_complete['Number of Activities'],
+            textposition='top center',
+            showlegend=False,
+            hoverinfo='none'  # avoid hover data
+        )
+    )
+    
+    return title, fig # End of Yearly Progress Tab - 3
